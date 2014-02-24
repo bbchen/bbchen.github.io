@@ -1,4 +1,4 @@
-title: Bin gave a talk on "Hidden Reservior in Earth's inner core" in the HIGP seminar
+title: Talk on "Hidden Reservior in Earth's inner core" in the HIGP seminar
 date: 2014-02-12
 published: true
 
