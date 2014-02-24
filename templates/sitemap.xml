@@ -7,32 +7,18 @@
         <changefreq>hourly</changefreq>
         <priority>1</priority>
     </url>
-    <!-- carnet -->
+    <!-- news -->
     <url>
-        <loc>{{ BASE_URL }}/carnet/</loc>
+        <loc>{{ BASE_URL }}/news/</loc>
         <lastmod>{{ recently }}</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
-    <!-- photography -->
+    <!-- gallery -->
     <url>
-        <loc>{{ BASE_URL }}/photography/</loc>
+        <loc>{{ BASE_URL }}/gallery/</loc>
         <lastmod>{{ recently }}</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <!-- code -->
-    <url>
-        <loc>{{ BASE_URL }}/code/</loc>
-        <lastmod>{{ recently }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <!-- talks -->
-    <url>
-        <loc>{{ BASE_URL }}/talks/</loc>
-        <lastmod>{{ recently }}</lastmod>
-        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <!-- contact -->

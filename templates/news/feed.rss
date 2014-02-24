@@ -1,0 +1,5 @@
+{% extends "base.rss" %}
+
+{% block lang %}en{% endblock %}
+{% block title %}News{% endblock %}
+{% block description %}Recent news in Dr. Chen's group.{% endblock %}

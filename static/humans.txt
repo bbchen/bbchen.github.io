@@ -3,7 +3,7 @@
 
 
 /* TEAM */
-  Author: Nicolas Perriault
+  Author: Bin Chen
   Site: http://nicolas.perriault.net/
-  Twitter: http://twitter.com/n1k0
-  Location: Montpellier, France
+  Twitter: http://twitter.com/bbchen
+  Location: Honolulu, Hawaii, U.S.A.

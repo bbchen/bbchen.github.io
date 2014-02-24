@@ -123,7 +123,7 @@ figure {
         font-style: italic;
     }
 }
-    .home figure, .code figure, .talks figure, .carnet figure {
+    .home figure, .code figure, .talks figure, .blog figure {
         margin-top: 1.45em;
     }
 
@@ -251,7 +251,7 @@ q:before, q:after {
             display: none;
         }
     }
-    article.photography {
+    article.gallery {
         aside {
             text-align: right;
             line-height: @baseHeight;
@@ -340,7 +340,7 @@ q:before, q:after {
             }
         }
     }
-    section.code, section.carnet {
+    section.code, section.blog {
         float: left;
         p {
             font-size: 80%;
@@ -350,7 +350,7 @@ q:before, q:after {
         width: 48%;
         margin-right: 4%;
     }
-    section.carnet {
+    section.blog {
         width: 48%;
     }
 }
@@ -431,8 +431,8 @@ body.code {
     }
 }
 
-body.carnet {
-    .sidebar li.carnet a {
+body.blog {
+    .sidebar li.blog a {
         .activeSection;
     }
 }
@@ -449,8 +449,8 @@ body.home {
     }
 }
 
-body.photography {
-    .sidebar li.photography a {
+body.gallery {
+    .sidebar li.gallery a {
         .activeSection;
     }
 }
@@ -472,7 +472,7 @@ body.darkroom {
     .sidebar li a:hover {
         color: #fff;
     }
-    .sidebar li.photography a {
+    .sidebar li.gallery a {
         color: #fff;
     }
 }
@@ -486,10 +486,10 @@ body.greyroom {
     .sidebar li a:hover {
         color: #fff;
     }
-    .sidebar li.photography a {
+    .sidebar li.gallery a {
         color: #fff;
     }
-    article.photography {
+    article.gallery {
         aside {
             &.help {
                 color: #eee;
@@ -628,7 +628,7 @@ body.greyroom {
             li {
                 line-height: 24px;
             }
-            article.photography {
+            article.gallery {
                 aside {
                     &.help {
                         display: none;
