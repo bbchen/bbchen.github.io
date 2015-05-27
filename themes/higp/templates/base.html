@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if article and article.author %}
+        <meta name="author" content="{{ article.author }}" />
+        <meta name="copyright" content="{{ article.author }}" />
+        {% elif page and page.author %}
+        <meta name="author" content="{{ page.author }}" />
+        <meta name="copyright" content="{{ page.author }}" />
+        {% else %}
+        <meta name="author" content="{{ AUTHOR }}" />
+        <meta name="copyright" content="{{ AUTHOR }}" />
+        {% endif %}
+        {% if SITE_DESCRIPTION %}
+        <meta name="description" content="{% block head_description %}{{ SITE_DESCRIPTION }}{% endblock head_description %}" />
+        {% endif %}
+        {% block meta_tags_in_head %}
+        {% endblock meta_tags_in_head %}
+        <title>{% block title %}{{ SITENAME|striptags }}{% endblock title %}</title>
+        {% block head_links %}
+        <link href="{{ SITEURL }}/theme/images/logo.png" rel="icon">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/syntax.css" media="screen">
+        {% endblock head_links %}
+        <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/apple-touch-icon.png" />
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ SITEURL }}/theme/images/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ SITEURL }}/theme/images/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ SITEURL }}/theme/images/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
+        <link rel="icon" href="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png" />
+        {% include 'feeds.html' %}
+        {% include 'mathjax.html' %}
+        {% include 'analytics.html' %}
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="wrap">
+            <div class="container">
+                <header>
+                    <h1 class="mainTitle"><span class="glyphicon glyphicon-globe"></span> <a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+                </header>
+                <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li {% if page_name == "index" %} class=""{% endif %}><a href="{{ SITEURL }}">Home</a></li>
+                            <li {% if page_name == "about" %} class=""{% endif %}><a href="{{ SITEURL }}/people.html">People</a></li>
+                            <li {% if page_name == "news" %} class=""{% endif %}><a href="{{ SITEURL }}/news">News</a></li>
+                            <li {% if page_name == "publications" %} class=""{% endif %}><a href="{{ SITEURL }}/publications">Publications</a></li>
+                            {% if DISPLAY_PAGES_ON_MENU %}
+                            {% for page in pages %}
+                            <li {% if output_file == page.url %} class=""{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+                            {% endfor %}
+                            {% endif %}
+                            {% if DISPLAY_CATEGORIES_ON_MENU %}
+                            <li {% if page_name == "categories" %} class=""{% endif %}><a href="{{ SITEURL }}/categories.html">Categories</a></li>
+                            {% endif %}
+                            {% if DISPLAY_TAGS_ON_MENU %}
+                            <li {% if page_name == "tags" %} class=""{% endif %}><a href="{{ SITEURL }}/tags.html">Tags</a></li>
+                            {% endif %}
+                            {% if DISPLAY_ARCHIVES_ON_MENU %}
+                            <li {% if page_name == "archives" %} class=""{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
+                            {% endif %}
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search" action="{{ SITEURL }}/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search" name="q" id="tipue_search_input"></form>
+                                <button type="submit" class="btn btn-default">Go</button>
+                            </div>
+                        </form>
+                    </div><!-- /.navbar-collapse -->
+                </nav>
+
+                <div class="postlist">
+                    <div class="post">
+                        {% block content %}
+                        {% endblock content %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            {% include 'footer.html' %}
+        </div>
+        {% block script %}
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-134468-4']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+        {% endblock script %}
+    </body>
+</html>

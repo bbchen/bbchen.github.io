@@ -1,75 +1,37 @@
-My blog
-=======
+#StasisTemplate
 
-These are the whole code and contents of my [personal weblog](https://nicolas.perriault.net/), open sourced.
+[Stasis](http://stasis.me) project template.
 
-Basically it's a static website builder/generator based on [Python](http://python.org/), [Flask](http://flask.pocoo.org/), [Frozen-Flask](http://packages.python.org/Frozen-Flask/) and cool other bricks.
+Use this template to develop an awesome static web site.
 
-**Read more about the technical concepts behind the code… [on my blog](https://nicolas.perriault.net/code/2012/dead-easy-yet-powerful-static-website-generator-with-flask/)** (so if you didn't know about recursivity yet, now you do).
+##Install gitcms
 
-Installation
-------------
+	gem install gitcms
 
-Note: you need a working installation of Python and [pip](http://pypi.python.org/pypi/pip).
+##Create project
 
-    $ git co https://github.com/n1k0/nicolas.perriault.net.git
-    $ cd nicolas.perriault.net
-    $ virtualenv --no-site-packages `pwd`/env
-    $ source env/bin/activate
-    (env)$ pip install -r requirements.txt
+	gitcms new my_project
 
-Deploying
----------
+##Install dependencies
 
-**Don't deploy this as is.** It's my personal weblog, remember? The code has been opensourced for educational purpose only.
+	bundle install
 
-Also, see the [License section](#license) of this document for more information about contents copyright.
+##Start developing
 
-Usage
------
+	gitcms server
 
-The `site` exec at the root of the repository is the only command you'll need to call to make this whole crap work:
+## Deploy
 
-To serve the website locally (optionaly in `DEBUG=True` mode):
+Sign up at [gitcms.com](http://gitcms.com) and deploy to [CloudFront](http://aws.amazon.com/cloudfront) in one step:
 
-    $ ./site serve --debug
-    * Running on http://127.0.0.1:5000/
-    * Restarting with reloader
+	gitcms deploy
 
-This is useful when you want to see changes without having to rebuild the whole suite.
+## Update bootstrap
 
-To build the static website:
+	gitcms bootstrap
 
-    $ ./site build
+## Stay up to date
 
-Generated HTML files and assets will go to the `./build/` directory.
+[Watch this project](https://github.com/winton/stasis_template#) on Github.
 
-To deploy the website (caveat: my server address is harcoded ^^):
-
-    $ ./site deploy
-
-There's also two commands for creating new posts and add new photos:
-
-    $ ./site post code --title="My title"
-    Created /Users/niko/Sites/nperriault/pages/code/2012/my-title.md
-    $ cat pages/code/2012/my-title.md
-    title: My title
-    date: 2012-10-05
-    published: false
-
-Same for the `./site photo` command.
-
-License
--------
-
-Contents in `./pages` and `./static/photography` (blog posts and photos) are licensed under the terms of the [Creative Commons BY-NC-SA license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-All the rest including Python code, templates, CSS & javascript is released under the terms of the [Do What The Fuck You Want To Public License](http://sam.zoy.org/wtfpl/).
-
-**Important note: You can freely reuse parts of the project code, but you can't republish the blog with its contents as is publicly on the Interwebs.**
-
-Supplementary Caveats
----------------------
-
-- It's up to you not being a dick with all of this, but I'm confident with that.
-- This code won't especially be maintained for other purpose than my own needs.
+[Follow Winton Welsh](http://twitter.com/intent/user?screen_name=wintonius) on Twitter.

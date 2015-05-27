@@ -1,9 +1,0 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
-
-
-/* TEAM */
-  Author: Bin Chen
-  Site: http://nicolas.perriault.net/
-  Twitter: http://twitter.com/bbchen
-  Location: Honolulu, Hawaii, U.S.A.

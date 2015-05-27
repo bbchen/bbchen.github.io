@@ -1,5 +1,0 @@
-{% extends "base.rss" %}
-
-{% block lang %}fr{% endblock %}
-{% block title %}Blog{% endblock %}
-{% block description %}Le petit coin d'aigreur sur la toile de Nicolas Perriault.{% endblock %}
