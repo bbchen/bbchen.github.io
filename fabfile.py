@@ -146,6 +146,7 @@ def slugify(text, delim=u'-'):
     return unicode(delim.join(result))
 
 def github():
+    github_source()
     build()
     local('ghp-import -m "website updated" {deploy_path} && '
           'git push {github_address} gh-pages:master --force'.format(**env))
