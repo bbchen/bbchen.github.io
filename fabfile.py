@@ -97,10 +97,10 @@ def post(section, title=None, filename=None):
         raise CommandError("File %s exists" % filepath)
     content = '\n'.join([
         u"Title: %s" % title,
-        u"date: %s" % post_date.strftime("%Y-%m-%d"),
+        u"Date: %s" % post_date.strftime("%Y-%m-%d %H:%M"),
         u"Tags:",
         u"Category:",
-        u"Draft: true\n\n",
+        u"Status: draft\n\n",
     ])
     try:
         codecs.open(filepath, 'w', encoding='utf8').write(content)

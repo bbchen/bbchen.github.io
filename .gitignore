@@ -1,9 +1,2 @@
 *.pyc
-<<<<<<< HEAD
-
-/build
-/env
-.webassets-cache
-=======
 deploy/
->>>>>>> master

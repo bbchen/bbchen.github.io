@@ -3,7 +3,7 @@ Slug: reflectoin-of-2015-and-plan-for-2016
 Date: 2016-01-05
 Tags:
 Category:
-Draft: true
+Status: draft
 
 At the beginning of the year, I always would like to ask myself the following questions:
 
