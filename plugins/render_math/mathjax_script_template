@@ -1,19 +1,4 @@
 if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {{
-<<<<<<< HEAD
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = {source};
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({{" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: {{ extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: {{ autoNumber: 'AMS' }} }}," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '{align}'," +
-        "    displayIndent: '{indent}'," +
-        "    showMathMenu: {show_menu}," +
-=======
     var align = "{align}",
         indent = "{indent}",
         linebreak = "{linebreak_automatic}";
@@ -40,7 +25,6 @@ if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {{
         "    displayIndent: '"+ indent +"'," +
         "    showMathMenu: {show_menu}," +
         "    messageStyle: '{message_style}'," +
->>>>>>> master
         "    tex2jax: {{ " +
         "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
         "        displayMath: [ ['$$','$$'] ]," +
@@ -48,11 +32,6 @@ if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {{
         "        preview: '{latex_preview}'," +
         "    }}, " +
         "    'HTML-CSS': {{ " +
-<<<<<<< HEAD
-        "        styles: {{ '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {{color: '{color} ! important'}} }}" +
-        "    }} " +
-        "}}); ";
-=======
         "        styles: {{ '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {{color: '{color} ! important'}} }}," +
         "        linebreaks: {{ automatic: "+ linebreak +", width: '90% container' }}," +
         "    }}, " +
@@ -73,6 +52,5 @@ if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {{
                 "VARIANT['-tex-mathit'].fonts.unshift('MathJax_{mathjax_font}-italic');" +
             "}});" +
         "}}";
->>>>>>> master
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }}

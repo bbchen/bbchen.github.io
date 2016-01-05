@@ -6,27 +6,6 @@ This plugin allows your site to render Math. It uses
 the MathJax JavaScript engine.
 
 For markdown, the plugin works by creating a Markdown
-<<<<<<< HEAD
-extension which is used during the markdown compilation stage.
-Math therefore gets treated like a "first class citizen" in Pelican
-
-For reStructuredText, the plugin instructs the rst engine
-to output Mathjax for for math.
-
-The mathjax script is automatically inserted into the HTML.
-
-Typogrify Compatibility
------------------------
-This plugin now plays nicely with Typogrify, but it requires
-Typogrify version 2.04 or above.
-
-User Settings
--------------
-Users are also able to pass a dictionary of settings in the settings file which
-will control how the MathJax library renders things. This could be very useful
-for template builders that want to adjust the look and feel of the math.
-See README for more details.
-=======
 extension which is used during the markdown compilation
 stage.  Math therefore gets treated like a "first class
 citizen" in Pelican
@@ -49,16 +28,11 @@ in the settings file which will control how the MathJax
 library renders things. This could be very useful for
 template builders that want to adjust the look and feel of
 the math.  See README for more details.
->>>>>>> master
 """
 
 import os
 import sys
 
-<<<<<<< HEAD
-from pelican import signals
-from . pelican_mathjax_markdown_extension import PelicanMathJaxExtension
-=======
 from pelican import signals, generators
 
 try:
@@ -70,7 +44,6 @@ try:
     from . pelican_mathjax_markdown_extension import PelicanMathJaxExtension
 except ImportError as e:
     PelicanMathJaxExtension = None
->>>>>>> master
 
 def process_settings(pelicanobj):
     """Sets user specified MathJax settings (see README for more details)"""
@@ -83,20 +56,12 @@ def process_settings(pelicanobj):
     # will be used for
 
     # Default settings
-<<<<<<< HEAD
-=======
     mathjax_settings['auto_insert'] = True  # if set to true, it will insert mathjax script automatically into content without needing to alter the template.
->>>>>>> master
     mathjax_settings['align'] = 'center'  # controls alignment of of displayed equations (values can be: left, right, center)
     mathjax_settings['indent'] = '0em'  # if above is not set to 'center', then this setting acts as an indent
     mathjax_settings['show_menu'] = 'true'  # controls whether to attach mathjax contextual menu
     mathjax_settings['process_escapes'] = 'true'  # controls whether escapes are processed
     mathjax_settings['latex_preview'] = 'TeX'  # controls what user sees while waiting for LaTex to render
-<<<<<<< HEAD
-    mathjax_settings['color'] = 'black'  # controls color math is rendered in
-
-    # Source for MathJax: Works boths for http and https (see http://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn)
-=======
     mathjax_settings['color'] = 'inherit'  # controls color math is rendered in
     mathjax_settings['linebreak_automatic'] = 'false'  # Set to false by default for performance reasons (see http://docs.mathjax.org/en/latest/output.html#automatic-line-breaking)
     mathjax_settings['tex_extensions'] = ''  # latex extensions that can be embedded inside mathjax (see http://docs.mathjax.org/en/latest/tex.html#tex-and-latex-extensions)
@@ -108,7 +73,6 @@ def process_settings(pelicanobj):
     mathjax_settings['message_style'] = 'normal'  # This value controls the verbosity of the messages in the lower left-hand corner. Set it to "none" to eliminate all messages
 
     # Source for MathJax
->>>>>>> master
     mathjax_settings['source'] = "'//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'"
 
     # Get the user specified settings
@@ -125,9 +89,6 @@ def process_settings(pelicanobj):
     for key, value in ((key, settings[key]) for key in settings):
         # Iterate over dictionary in a way that is compatible with both version 2
         # and 3 of python
-<<<<<<< HEAD
-        if key == 'align' and isinstance(value, str):
-=======
 
         if key == 'align':
             try:
@@ -138,7 +99,6 @@ def process_settings(pelicanobj):
             if not typeVal:
                 continue
 
->>>>>>> master
             if value == 'left' or value == 'right' or value == 'center':
                 mathjax_settings[key] = value
             else:
@@ -150,15 +110,6 @@ def process_settings(pelicanobj):
         if key == 'show_menu' and isinstance(value, bool):
             mathjax_settings[key] = 'true' if value else 'false'
 
-<<<<<<< HEAD
-        if key == 'process_escapes' and isinstance(value, bool):
-            mathjax_settings[key] = 'true' if value else 'false'
-
-        if key == 'latex_preview' and isinstance(value, str):
-            mathjax_settings[key] = value
-
-        if key == 'color' and isinstance(value, str):
-=======
         if key == 'message_style':
             mathjax_settings[key] = value if value is not None else 'none'
 
@@ -239,15 +190,10 @@ def process_settings(pelicanobj):
             else:
                 value = 'default'
 
->>>>>>> master
             mathjax_settings[key] = value
 
     return mathjax_settings
 
-<<<<<<< HEAD
-def configure_typogrify(pelicanobj, mathjax_settings):
-    """Instructs Typogrify to ignore math tags - which allows Typogfrify
-=======
 def process_summary(article):
     """Ensures summaries are not cut off. Also inserts
     mathjax script so that math will be rendered"""
@@ -268,7 +214,6 @@ def process_summary(article):
 
 def configure_typogrify(pelicanobj, mathjax_settings):
     """Instructs Typogrify to ignore math tags - which allows Typogrify
->>>>>>> master
     to play nicely with math related content"""
 
     # If Typogrify is not being used, then just exit
@@ -290,11 +235,7 @@ def configure_typogrify(pelicanobj, mathjax_settings):
         # Instantiate markdown extension and append it to the current extensions
         pelicanobj.settings['TYPOGRIFY_IGNORE_TAGS'].extend(['.math', 'script'])  # ignore math class and script
 
-<<<<<<< HEAD
-    except (ImportError, TypeError, KeyError) as e:
-=======
     except (ImportError, TypeError) as e:
->>>>>>> master
         pelicanobj.settings['TYPOGRIFY'] = False  # disable Typogrify
 
         if isinstance(e, ImportError):
@@ -303,44 +244,25 @@ def configure_typogrify(pelicanobj, mathjax_settings):
         if isinstance(e, TypeError):
             print("\nA more recent version of Typogrify is needed for the render_math module.\nPlease upgrade Typogrify to the latest version (anything equal or above version 2.0.7 is okay).\nTypogrify will be turned off due to this reason.\n")
 
-<<<<<<< HEAD
-        if isinstance(e, KeyError):
-            print("\nA more recent version of Pelican is needed for Typogrify to work with render_math.\nPlease upgrade Pelican to the latest version or clone it directly from the master GitHub branch\nTypogrify will be turned off due to this reason\n")
-
-=======
->>>>>>> master
 def process_mathjax_script(mathjax_settings):
     """Load the mathjax script template from file, and render with the settings"""
 
     # Read the mathjax javascript template from file
-<<<<<<< HEAD
-    with open (os.path.dirname(os.path.realpath(__file__))+'/mathjax_script_template', 'r') as mathjax_script_template:
-=======
     with open (os.path.dirname(os.path.realpath(__file__))
             + '/mathjax_script_template', 'r') as mathjax_script_template:
->>>>>>> master
         mathjax_template = mathjax_script_template.read()
 
     return mathjax_template.format(**mathjax_settings)
 
-<<<<<<< HEAD
-def mathjax_for_markdown(pelicanobj, mathjax_settings):
-=======
 def mathjax_for_markdown(pelicanobj, mathjax_script, mathjax_settings):
->>>>>>> master
     """Instantiates a customized markdown extension for handling mathjax
     related content"""
 
     # Create the configuration for the markdown template
     config = {}
-<<<<<<< HEAD
-    config['mathjax_script'] = process_mathjax_script(mathjax_settings)
-    config['math_tag_class'] = 'math'
-=======
     config['mathjax_script'] = mathjax_script
     config['math_tag_class'] = 'math'
     config['auto_insert'] = mathjax_settings['auto_insert']
->>>>>>> master
 
     # Instantiate markdown extension and append it to the current extensions
     try:
@@ -350,20 +272,6 @@ def mathjax_for_markdown(pelicanobj, mathjax_script, mathjax_settings):
         sys.stderr.write("\nError - the pelican mathjax markdown extension failed to configure. MathJax is non-functional.\n")
         sys.stderr.flush()
 
-<<<<<<< HEAD
-def mathjax_for_rst(pelicanobj, mathjax_settings):
-    pelicanobj.settings['DOCUTILS_SETTINGS'] = {'math_output': 'MathJax'}
-    rst_add_mathjax.mathjax_script = process_mathjax_script(mathjax_settings)
-
-def pelican_init(pelicanobj):
-    """Loads the mathjax script according to the settings. Instantiate the Python
-    markdown extension, passing in the mathjax script as config parameter
-    """
-
-    # Process settings
-    mathjax_settings = process_settings(pelicanobj)
-
-=======
 def mathjax_for_rst(pelicanobj, mathjax_script):
     """Setup math for RST"""
 
@@ -383,20 +291,10 @@ def pelican_init(pelicanobj):
     # Generate mathjax script
     mathjax_script = process_mathjax_script(mathjax_settings)
 
->>>>>>> master
     # Configure Typogrify
     configure_typogrify(pelicanobj, mathjax_settings)
 
     # Configure Mathjax For Markdown
-<<<<<<< HEAD
-    mathjax_for_markdown(pelicanobj, mathjax_settings)
-
-    # Configure Mathjax For RST
-    mathjax_for_rst(pelicanobj, mathjax_settings)
-
-def rst_add_mathjax(instance):
-    _, ext = os.path.splitext(os.path.basename(instance.source_path))
-=======
     if PelicanMathJaxExtension:
         mathjax_for_markdown(pelicanobj, mathjax_script, mathjax_settings)
 
@@ -413,15 +311,10 @@ def rst_add_mathjax(content):
 
     # .rst is the only valid extension for reStructuredText files
     _, ext = os.path.splitext(os.path.basename(content.source_path))
->>>>>>> master
     if ext != '.rst':
         return
 
     # If math class is present in text, add the javascript
-<<<<<<< HEAD
-    if 'class="math"' in instance._content:
-        instance._content += "<script type='text/javascript'>%s</script>" % rst_add_mathjax.mathjax_script
-=======
     # note that RST hardwires mathjax to be class "math"
     if 'class="math"' in content._content:
         content._content += "<script type='text/javascript'>%s</script>" % rst_add_mathjax.mathjax_script
@@ -452,13 +345,8 @@ def process_rst_and_summaries(content_generators):
         elif isinstance(generator, generators.PagesGenerator):
             for page in generator.pages:
                 rst_add_mathjax(page)
->>>>>>> master
 
 def register():
     """Plugin registration"""
     signals.initialized.connect(pelican_init)
-<<<<<<< HEAD
-    signals.content_object_init.connect(rst_add_mathjax)
-=======
     signals.all_generators_finalized.connect(process_rst_and_summaries)
->>>>>>> master

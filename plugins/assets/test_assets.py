@@ -12,10 +12,7 @@ import subprocess
 
 from pelican import Pelican
 from pelican.settings import read_settings
-<<<<<<< HEAD
-=======
 from pelican.tests.support import mute, skipIfNoExecutable, module_exists
->>>>>>> master
 
 CUR_DIR = os.path.dirname(__file__)
 THEME_DIR = os.path.join(CUR_DIR, 'test_data')
@@ -24,40 +21,6 @@ CSS_REF = open(os.path.join(THEME_DIR, 'static', 'css',
 CSS_HASH = hashlib.md5(CSS_REF).hexdigest()[0:8]
 
 
-<<<<<<< HEAD
-def skipIfNoExecutable(executable):
-    """Skip test if `executable` is not found
-
-    Tries to run `executable` with subprocess to make sure it's in the path,
-    and skips the tests if not found (if subprocess raises a `OSError`).
-    """
-
-    with open(os.devnull, 'w') as fnull:
-        try:
-            res = subprocess.call(executable, stdout=fnull, stderr=fnull)
-        except OSError:
-            res = None
-
-    if res is None:
-        return unittest.skip('{0} executable not found'.format(executable))
-
-    return lambda func: func
-
-
-def module_exists(module_name):
-    """Test if a module is importable."""
-
-    try:
-        __import__(module_name)
-    except ImportError:
-        return False
-    else:
-        return True
-
-
-
-=======
->>>>>>> master
 @unittest.skipUnless(module_exists('webassets'), "webassets isn't installed")
 @skipIfNoExecutable(['scss', '-v'])
 @skipIfNoExecutable(['cssmin', '--version'])
@@ -73,21 +36,14 @@ class TestWebAssets(unittest.TestCase):
             'PLUGINS': [assets],
             'THEME': THEME_DIR,
             'LOCALE': locale.normalize('en_US'),
-<<<<<<< HEAD
-=======
             'CACHE_CONTENT': False
->>>>>>> master
         }
         if override:
             settings.update(override)
 
         self.settings = read_settings(override=settings)
         pelican = Pelican(settings=self.settings)
-<<<<<<< HEAD
-        pelican.run()
-=======
         mute(True)(pelican.run)()
->>>>>>> master
 
     def tearDown(self):
         rmtree(self.temp_path)

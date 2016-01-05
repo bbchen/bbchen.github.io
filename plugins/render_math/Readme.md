@@ -5,13 +5,6 @@ this by using the [MathJax](http://www.mathjax.org/) javascript engine.
 
 The plugin also ensures that Typogrify and recognized math "play" nicely together, by
 ensuring [Typogrify](https://github.com/mintchaos/typogrify) does not alter math content.
-<<<<<<< HEAD
-It requires at a minimum Pelican version *3.5* and Typogrify version *2.0.7* to work.
-If these versions are not available, Typogrify will be disabled for the entire site.
-
-Both Markdown and reStructuredText is supported.
-
-=======
 
 Both Markdown and reStructuredText is supported.
 
@@ -26,7 +19,6 @@ Requirements
     not installed, summary processing will be ignored, even if specified
     in user settings.
 
->>>>>>> master
 Installation
 ------------
 To enable, ensure that `render_math` plugin is accessible.
@@ -37,16 +29,6 @@ Then add the following to settings.py:
 Your site is now capable of rendering math math using the mathjax JavaScript
 engine. No alterations to the template is needed, just use and enjoy!
 
-<<<<<<< HEAD
-### Typogrify
-In the past, using [Typgogrify](https://github.com/mintchaos/typogrify) would alter the math contents resulting
-in math that could not be rendered by MathJax. The only option was to ensure
-that Typogrify was disabled in the settings.
-
-The problem has been recitified in this plugin, but it requires [Typogrify version 2.0.7](https://pypi.python.org/pypi/typogrify)
-(or higher) and Pelican version 3.5 or higher. If these versions are not present, the plugin will disable
-Typogrify for the entire site
-=======
 However, if you wish, you can set the `auto_insert` setting to `False` which
 will disable the mathjax script from being automatically inserted into the
 content. You would only want to do this if you had control over the template
@@ -69,7 +51,6 @@ the math output in the summary.
 
 To restore math, [BeautifulSoup4](https://pypi.python.org/pypi/beautifulsoup4/4.4.0)
 is used. If it is not installed, no summary processing will happen.
->>>>>>> master
 
 Usage
 -----
@@ -79,34 +60,11 @@ the plugin and start writing your Math.
 
 ### Settings
 Certain MathJax rendering options can be set. These options 
-<<<<<<< HEAD
-are in a dictionary variable called `MATH` in the pelican
-=======
 are in a dictionary variable called `MATH_JAX` in the pelican
->>>>>>> master
 settings file.
 
 The dictionary can be set with the following keys:
 
-<<<<<<< HEAD
- * `align`: controls how displayed math will be aligned. Can be set to either
-`left`, `right` or `center`. **Default Value**: `center`.
- * `indent`: if `align` not set to `center`, then this controls the indent
-level. **Default Value**: `0em`.
- * `show_menu`: a boolean value that controls whether the mathjax contextual 
-menu is shown. **Default Value**: True
- * `process_escapes`: a boolean value that controls whether mathjax processes escape 
-sequences. **Default Value**: True
- * `latex_preview`: controls the preview message users are seen while mathjax is
-rendering LaTex. If set to `Tex`, then the TeX code is used as the preview 
-(which will be visible until it is processed by MathJax). **Default Value**: `Tex`
- * `color`: controls the color of the mathjax rendered font. **Default Value**: `black`
-
-For example, in settings.py, the following would make math render in blue and
-displaymath align to the left:
-
-    MATH = {'color':'blue','align':left}
-=======
  * `align`: [string] controls how displayed math will be aligned. Can be set to either
 `'left'`, `'right'` or `'center'`. **Default Value**: `'center'`.
  * `auto_insert`: [boolean] will insert the mathjax script into content that it is
@@ -151,7 +109,6 @@ Use the [color](http://docs.mathjax.org/en/latest/tex.html#color) and
 [mhchem](http://docs.mathjax.org/en/latest/tex.html#mhchem) extensions:
     
     MATH_JAX = {'tex_extensions': ['color.js','mhchem.js']}
->>>>>>> master
 
 #### Resulting HTML
 Inlined math is wrapped in `span` tags, while displayed math is wrapped in `div` tags.
