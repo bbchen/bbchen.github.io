@@ -12,6 +12,10 @@ import subprocess
 
 from pelican import Pelican
 from pelican.settings import read_settings
+<<<<<<< HEAD
+=======
+from pelican.tests.support import mute, skipIfNoExecutable, module_exists
+>>>>>>> master
 
 CUR_DIR = os.path.dirname(__file__)
 THEME_DIR = os.path.join(CUR_DIR, 'test_data')
@@ -20,6 +24,7 @@ CSS_REF = open(os.path.join(THEME_DIR, 'static', 'css',
 CSS_HASH = hashlib.md5(CSS_REF).hexdigest()[0:8]
 
 
+<<<<<<< HEAD
 def skipIfNoExecutable(executable):
     """Skip test if `executable` is not found
 
@@ -51,6 +56,8 @@ def module_exists(module_name):
 
 
 
+=======
+>>>>>>> master
 @unittest.skipUnless(module_exists('webassets'), "webassets isn't installed")
 @skipIfNoExecutable(['scss', '-v'])
 @skipIfNoExecutable(['cssmin', '--version'])
@@ -66,13 +73,21 @@ class TestWebAssets(unittest.TestCase):
             'PLUGINS': [assets],
             'THEME': THEME_DIR,
             'LOCALE': locale.normalize('en_US'),
+<<<<<<< HEAD
+=======
+            'CACHE_CONTENT': False
+>>>>>>> master
         }
         if override:
             settings.update(override)
 
         self.settings = read_settings(override=settings)
         pelican = Pelican(settings=self.settings)
+<<<<<<< HEAD
         pelican.run()
+=======
+        mute(True)(pelican.run)()
+>>>>>>> master
 
     def tearDown(self):
         rmtree(self.temp_path)

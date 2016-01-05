@@ -13,7 +13,11 @@ functions, including:
 * CSS compiler (``less``, ``sass``, ...)
 * JS minifier (``uglifyjs``, ``yui_js``, ``closure``, ...)
 
+<<<<<<< HEAD
 Others filters include gzip compression, integration of images in CSS via data
+=======
+Others filters include CSS URL rewriting, integration of images in CSS via data
+>>>>>>> master
 URIs, and more. Webassets can also append a version identifier to your asset
 URL to convince browsers to download new versions of your assets when you use
 far-future expires headers. Please refer to the `Webassets documentation`_ for
@@ -51,11 +55,19 @@ Another example for Javascript:
 
 .. code-block:: jinja
 
+<<<<<<< HEAD
     {% assets filters="uglifyjs,gzip", output="js/packed.js", "js/jquery.js", "js/base.js", "js/widgets.js" %}
         <script src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
     {% endassets %}
 
 The above will produce a minified and gzipped JS file:
+=======
+    {% assets filters="uglifyjs", output="js/packed.js", "js/jquery.js", "js/base.js", "js/widgets.js" %}
+        <script src="{{ SITEURL }}/{{ ASSET_URL }}"></script>
+    {% endassets %}
+
+The above will produce a minified JS file:
+>>>>>>> master
 
 .. code-block:: html
 
@@ -92,7 +104,11 @@ LessCSS's binary:
 If you wish to place your assets in locations other than the theme output
 directory, you can use ``ASSET_SOURCE_PATHS`` in your settings file to provide
 webassets with a list of additional directories to search, relative to the
+<<<<<<< HEAD
 theme's top-level directory. For example:
+=======
+theme's top-level directory:
+>>>>>>> master
 
 .. code-block:: python
 

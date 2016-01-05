@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
@@ -22,3 +23,13 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+=======
+# Extend pelicanconf.py and apply some additional settings
+import os, sys
+sys.path.append(os.curdir)
+from pelicanconf import *
+
+SITEURL = 'http://kevinyap.ca'
+RELATIVE_URLS = False
+OUTPUT_PATH = 'output/'
+>>>>>>> master

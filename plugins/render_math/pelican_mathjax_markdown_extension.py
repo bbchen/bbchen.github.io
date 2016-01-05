@@ -14,7 +14,11 @@ from markdown.util import etree
 from markdown.util import AtomicString
 
 class PelicanMathJaxPattern(markdown.inlinepatterns.Pattern):
+<<<<<<< HEAD
     """Pattern for matching mathjax"""
+=======
+    """Inline markdown processing that matches mathjax"""
+>>>>>>> master
 
     def __init__(self, pelican_mathjax_extension, tag, pattern):
         super(PelicanMathJaxPattern,self).__init__(pattern)
@@ -35,7 +39,71 @@ class PelicanMathJaxPattern(markdown.inlinepatterns.Pattern):
         self.pelican_mathjax_extension.mathjax_needed = True
         return node
 
+<<<<<<< HEAD
 class PelicanMathJaxTreeProcessor(markdown.treeprocessors.Treeprocessor):
+=======
+class PelicanMathJaxCorrectDisplayMath(markdown.treeprocessors.Treeprocessor):
+    """Corrects invalid html that results from a <div> being put inside
+    a <p> for displayed math"""
+
+    def __init__(self, pelican_mathjax_extension):
+        self.pelican_mathjax_extension = pelican_mathjax_extension
+
+    def correct_html(self, root, children, div_math, insert_idx, text):
+        """Separates out <div class="math"> from the parent tag <p>. Anything
+        in between is put into its own parent tag of <p>"""
+
+        current_idx = 0
+
+        for idx in div_math:
+            el = markdown.util.etree.Element('p')
+            el.text = text
+            el.extend(children[current_idx:idx])
+
+            # Test to ensure that empty <p> is not inserted  
+            if len(el) != 0 or (el.text and not el.text.isspace()):
+               root.insert(insert_idx, el)
+               insert_idx += 1
+
+            text = children[idx].tail
+            children[idx].tail = None
+            root.insert(insert_idx, children[idx])
+            insert_idx += 1
+            current_idx = idx+1
+
+        el = markdown.util.etree.Element('p')
+        el.text = text
+        el.extend(children[current_idx:])
+
+        if len(el) != 0 or (el.text and not el.text.isspace()):
+            root.insert(insert_idx, el)
+
+    def run(self, root):
+        """Searches for <div class="math"> that are children in <p> tags and corrects
+        the invalid HTML that results"""
+
+        math_tag_class = self.pelican_mathjax_extension.getConfig('math_tag_class')
+
+        for parent in root:
+            div_math = []
+            children = list(parent)
+
+            for div in parent.findall('div'):
+                if div.get('class') == math_tag_class:
+                    div_math.append(children.index(div))
+
+            # Do not process further if no displayed math has been found
+            if not div_math:
+                continue
+
+            insert_idx = list(root).index(parent)
+            self.correct_html(root, children, div_math, insert_idx, parent.text) 
+            root.remove(parent)  # Parent must be removed last for correct insertion index
+
+        return root
+
+class PelicanMathJaxAddJavaScript(markdown.treeprocessors.Treeprocessor):
+>>>>>>> master
     """Tree Processor for adding Mathjax JavaScript to the blog"""
 
     def __init__(self, pelican_mathjax_extension):
@@ -65,11 +133,19 @@ class PelicanMathJaxExtension(markdown.Extension):
             # Needed for markdown versions >= 2.5
             self.config['mathjax_script'] = ['', 'Mathjax JavaScript script']
             self.config['math_tag_class'] = ['math', 'The class of the tag in which mathematics is wrapped']
+<<<<<<< HEAD
+=======
+            self.config['auto_insert'] = [True, 'Determines if mathjax script is automatically inserted into content']
+>>>>>>> master
             super(PelicanMathJaxExtension,self).__init__(**config)
         except AttributeError:
             # Markdown versions < 2.5
             config['mathjax_script'] = [config['mathjax_script'], 'Mathjax JavaScript script']
             config['math_tag_class'] = [config['math_tag_class'], 'The class of the tag in which mathematic is wrapped']
+<<<<<<< HEAD
+=======
+            config['auto_insert'] = [config['auto_insert'], 'Determines if mathjax script is automatically inserted into content']
+>>>>>>> master
             super(PelicanMathJaxExtension,self).__init__(config)
 
         # Used as a flag to determine if javascript
@@ -87,6 +163,16 @@ class PelicanMathJaxExtension(markdown.Extension):
         md.inlinePatterns.add('mathjax_displayed', PelicanMathJaxPattern(self, 'div', mathjax_display_regex), '<escape')
         md.inlinePatterns.add('mathjax_inlined', PelicanMathJaxPattern(self, 'span', mathjax_inline_regex), '<escape')
 
+<<<<<<< HEAD
         # If necessary, add the JavaScript Mathjax library to the document. This must
         # be last in the ordered dict (hence it is given the position '_end')
         md.treeprocessors.add('mathjax', PelicanMathJaxTreeProcessor(self), '_end')
+=======
+        # Correct the invalid HTML that results from teh displayed math (<div> tag within a <p> tag) 
+        md.treeprocessors.add('mathjax_correctdisplayedmath', PelicanMathJaxCorrectDisplayMath(self), '>inline')
+
+        # If necessary, add the JavaScript Mathjax library to the document. This must
+        # be last in the ordered dict (hence it is given the position '_end')
+        if self.getConfig('auto_insert'):
+            md.treeprocessors.add('mathjax_addjavascript', PelicanMathJaxAddJavaScript(self), '_end')
+>>>>>>> master
