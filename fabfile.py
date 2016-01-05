@@ -150,9 +150,10 @@ def github():
     local('ghp-import -m "website updated" {deploy_path} && '
           'git push {github_address} gh-pages:master --force'.format(**env))
 
-def github_s():
-    local('ghp-import -m "website updated" . && '
-          'git push {github_address} gh-pages:source --force'.format(**env))
+def github_source():
+    local('git add --all && '
+          'git commit -m "source updated" && '
+          'git push origin source'.format(**env))
 
 @hosts(production)
 def publish():
