@@ -96,9 +96,11 @@ def post(section, title=None, filename=None):
         os.system("open " + filepath)
         raise CommandError("File %s exists" % filepath)
     content = '\n'.join([
-        u"title: %s" % title,
+        u"Title: %s" % title,
         u"date: %s" % post_date.strftime("%Y-%m-%d"),
-        u"published: false\n\n",
+        u"Tags:",
+        u"Category:",
+        u"Draft: true\n\n",
     ])
     try:
         codecs.open(filepath, 'w', encoding='utf8').write(content)
