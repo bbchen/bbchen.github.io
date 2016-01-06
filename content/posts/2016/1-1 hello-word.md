@@ -13,7 +13,7 @@ This is the first post from [Zen Life](http://bbchen.github.io), a blog maintain
 
 As a note to myself in this "***Hello World!***" message, I would like to form the following writing and reading habits in the new year:
 
-- **Write**: I am going to write on average 1 blog post (at least 700 words) every 2-3 weeks to record my life and keep myself on track.
+- **Writing**: I am going to write on average one blog post (at least 700 words) every 2-3 weeks to record my life and keep myself on track.
 - **Reading**: I am going to read one book per month. See my [Book Reading List]({filename}/pages/book-list.md), which will be updated routinely.
 
 If you find anything useful in my website, feel free to share them.
