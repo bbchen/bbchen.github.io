@@ -40,7 +40,7 @@ This is called the new year's resolution. A lot of people often perform reflecti
 
 **And most importantly, what is the new year's resolution for my family?** Family is what I value the most important part of one's life. I am blessed that I have a nice family, with two little and lovely kids. In the new year, I am planning to accomplish the following:
 
-- Read to the kids.
+- Read to the kids every day.
 - Give them a decent and memorable vacation to the family.
 - Spend more time with wife and kids.
 - Learn to cook nutritious and healthy breakfast for the family.
