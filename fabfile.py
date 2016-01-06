@@ -69,13 +69,13 @@ def reserve():
 def preview():
     local('pelican -s publishconf.py')
 
-def cf_upload():
-    rebuild()
-    local('cd {deploy_path} && '
-          'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-          '-U {cloudfiles_username} '
-          '-K {cloudfiles_api_key} '
-          'upload -c {cloudfiles_container} .'.format(**env))
+# def cf_upload():
+#     rebuild()
+#     local('cd {deploy_path} && '
+#           'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
+#           '-U {cloudfiles_username} '
+#           '-K {cloudfiles_api_key} '
+#           'upload -c {cloudfiles_container} .'.format(**env))
 
 def post(section, title=None, filename=None):
     """ Create a new empty post.
