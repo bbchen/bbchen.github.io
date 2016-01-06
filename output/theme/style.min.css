@@ -1,0 +1,872 @@
+/*
+* Styling based on the Skeleton documention (http://www.getskeleton.com/)
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+@media -sass-debug-info{filename{}line{font-family:\0000327}}
+html, body, div, span, applet, object, iframe, h1, h2, .admonition-title, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000334}}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000335}}
+body {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000336}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000337}}
+blockquote, q {
+  quotes: none;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000339}}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000340}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000345}}
+body {
+  background: #fff;
+  font: 14px/23px "Raleway", sans-serif;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000353}}
+article p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin: 1.25em 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000359}}
+h1, h2, .admonition-title, h3 {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000361}}
+h1 {
+  font-size: 1.7em;
+  margin-bottom: 4px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000366}}
+h2, .admonition-title {
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000371}}
+h3 {
+  font-size: 1.2em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000373}}
+em {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000374}}
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000376}}
+blockquote {
+  margin: 20px 0 20px 3px;
+  padding: 1px 15px;
+  border-left: 2px solid #ddd;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000381}}
+blockquote p {
+  color: #777;
+  font-style: normal;
+  margin: 3px 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000387}}
+blockquote cite {
+  display: block;
+  padding-top: 5px;
+  font-size: 0.85em;
+  color: #555;
+}
+@media -sass-debug-info{filename{}line{font-family:\0000392}}
+blockquote cite:before {
+  content: "\2014 \0020";
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000396}}
+hr {
+  clear: both;
+  border: none;
+  height: 1px;
+  background-color: #ebebeb;
+  margin: 10px 5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003104}}
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  outline: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003110}}
+a:hover, a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003115}}
+a.icon {
+  padding: 0 2px;
+  font-size: 20px;
+  color: #555;
+  transition: color 0.25s ease;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003121}}
+a.icon:hover {
+  text-decoration: none;
+  color: #222;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003125}}
+a.icon:hover.fa-twitter {
+  color: #55acee;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003125}}
+a.icon:hover.fa-google-plus-square {
+  color: #dd4b39;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003125}}
+a.icon:hover.fa-github {
+  color: #171515;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003125}}
+a.icon:hover.fa-soundcloud {
+  color: #f70;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003131}}
+ul, ol {
+  margin: 1.25em 2.25em;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003134}}
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003140}}
+ul {
+  list-style: square outside;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003141}}
+ol {
+  list-style: decimal;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003144}}
+table:not(.codehilitetable) th, table:not(.codehilitetable) td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003149}}
+table:not(.codehilitetable) th:first-child, table:not(.codehilitetable) td:first-child {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003150}}
+table:not(.codehilitetable) th:last-child, table:not(.codehilitetable) td:last-child {
+  padding-right: 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003154}}
+abbr, acronym, .abbr {
+  cursor: help;
+  border-bottom: 1px dashed #444;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003159}}
+.footnote-ref {
+  padding-left: 1px;
+  font-size: .7em;
+  line-height: 0.5em;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.7em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003168}}
+code {
+  font-size: 0.85em;
+  font-family: "Source Code Pro", monospace;
+  background: #f5f5f5;
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003176}}
+.codehilitetable {
+  font: 0.85em/1.5 "Source Code Pro", monospace;
+  overflow-x: auto;
+  display: block;
+  border-left: 3px solid #FF8000;
+  border-radius: 2px;
+  padding: 0.8em 0;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003184}}
+.codehilitetable tbody tr {
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003187}}
+.linenos {
+  border-right: 1px solid #3d3d3d;
+  padding: 0 0.7em;
+  width: 1.2em;
+  text-align: right;
+  position: absolute;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003200}}
+.codehilite {
+  margin: 0 1em 0 3.5em;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003204}}
+.admonition {
+  background: #fafafa;
+  margin: 20px 0;
+  padding: 10px 25px;
+  border: solid #ccc;
+  border-width: 1px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003212}}
+.admonition-title {
+  margin: 12px 0;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003224}}
+html, body {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003228}}
+.container {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003235}}
+article img {
+  max-width: 95%;
+  margin: 0 auto;
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003241}}
+footer p {
+  margin: 12px 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003247}}
+aside div {
+  margin: 12px 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003252}}
+#avatar {
+  margin: 0 auto;
+  display: block;
+  width: 140px;
+  border-radius: 15px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003259}}
+#name {
+  font-size: 1.8em;
+  line-height: 1.35;
+  letter-spacing: -0.5px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003265}}
+#bio {
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003270}}
+#sidebar-links {
+  color: #aaa;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003274}}
+#sidebar-divider {
+  display: none;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003278}}
+.title {
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003282}}
+.date {
+  float: right;
+  display: block;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003287}}
+.content {
+  clear: both;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{}line{font-family:\00003291}}
+.content hr {
+  margin: 25px 10px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003294}}
+.summary p {
+  margin-bottom: 6px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003298}}
+#view-archives {
+  overflow: auto;
+  text-align: right;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003303}}
+#back-to-home, #related-articles {
+  overflow: auto;
+  margin-top: 20px;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003308}}
+#next-neighbour {
+  float: left;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\00003309}}
+#prev-neighbour {
+  float: right;
+}
+
+@media only screen and (min-width: 960px) {
+@media -sass-debug-info{filename{}line{font-family:\00003315}}
+  aside, article, footer {
+    margin: 0 10px;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003317}}
+  aside {
+    float: left;
+    width: 160px;
+    position: fixed;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003323}}
+  article, footer {
+    float: right;
+    width: 640px;
+  }
+}
+@media only screen and (max-width: 959px) {
+@media -sass-debug-info{filename{}line{font-family:\00003332}}
+  .container {
+    padding-top: 3px;
+    width: 90%;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003337}}
+  aside {
+    max-width: 280px;
+    margin: 0 auto;
+    padding-top: 5px;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{}line{font-family:\00003343}}
+  aside div {
+    margin: 5px 0;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003346}}
+  #avatar {
+    float: left;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003347}}
+  #social .icon {
+    padding: 0 1px;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003348}}
+  article {
+    margin-top: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+@media -sass-debug-info{filename{}line{font-family:\00003352}}
+  .title, .date {
+    text-align: center;
+    float: none;
+    line-height: 1.25;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003358}}
+  #sidebar-divider {
+    display: block;
+  }
+}
+@media only print {
+@media -sass-debug-info{filename{}line{font-family:\00003362}}
+  footer, aside, #disqus_thread, #related-articles, #back-to-home {
+    display: none !important;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003366}}
+  .container {
+    width: 85%;
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003367}}
+  p a:after {
+    content: " [" attr(href) "]";
+  }
+
+@media -sass-debug-info{filename{}line{font-family:\00003368}}
+  .linenos {
+    border-right: none;
+  }
+}
+
+/*
+    Base16 Eighties Dark
+    Author: Chris Kempson (http://chriskempson.com)
+
+    Pygments template by Jan T. Sott (https://github.com/idleberg)
+    Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
+*/
+@media -sass-debug-info{filename{}line{font-family:\000039}}
+.codehilitetable, .linenos {
+  background: #2d2d2d;
+  color: #f2f0ec;
+}
+
+@media -sass-debug-info{filename{}line{font-family:\0000310}}
+.c, .linenos {
+  color: #747369;
+}
+
+/* Comment (and line numbers) */
+@media -sass-debug-info{filename{}line{font-family:\0000311}}
+.err {
+  color: #f2777a;
+}
+
+/* Error */
+@media -sass-debug-info{filename{}line{font-family:\0000312}}
+.k {
+  color: #cc99cc;
+}
+
+/* Keyword */
+@media -sass-debug-info{filename{}line{font-family:\0000313}}
+.l {
+  color: #f99157;
+}
+
+/* Literal */
+@media -sass-debug-info{filename{}line{font-family:\0000314}}
+.n {
+  color: #f2f0ec;
+}
+
+/* Name */
+@media -sass-debug-info{filename{}line{font-family:\0000315}}
+.o {
+  color: #66cccc;
+}
+
+/* Operator */
+@media -sass-debug-info{filename{}line{font-family:\0000316}}
+.p {
+  color: #f2f0ec;
+}
+
+/* Punctuation */
+@media -sass-debug-info{filename{}line{font-family:\0000317}}
+.cm {
+  color: #747369;
+}
+
+/* Comment.Multiline */
+@media -sass-debug-info{filename{}line{font-family:\0000318}}
+.cp {
+  color: #747369;
+}
+
+/* Comment.Preproc */
+@media -sass-debug-info{filename{}line{font-family:\0000319}}
+.c1 {
+  color: #747369;
+}
+
+/* Comment.Single */
+@media -sass-debug-info{filename{}line{font-family:\0000320}}
+.cs {
+  color: #747369;
+}
+
+/* Comment.Special */
+@media -sass-debug-info{filename{}line{font-family:\0000321}}
+.gd {
+  color: #f2777a;
+}
+
+/* Generic.Deleted */
+@media -sass-debug-info{filename{}line{font-family:\0000322}}
+.ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+@media -sass-debug-info{filename{}line{font-family:\0000323}}
+.gh {
+  color: #f2f0ec;
+  font-weight: bold;
+}
+
+/* Generic.Heading */
+@media -sass-debug-info{filename{}line{font-family:\0000324}}
+.gi {
+  color: #99cc99;
+}
+
+/* Generic.Inserted */
+@media -sass-debug-info{filename{}line{font-family:\0000325}}
+.gp {
+  color: #747369;
+  font-weight: bold;
+}
+
+/* Generic.Prompt */
+@media -sass-debug-info{filename{}line{font-family:\0000326}}
+.gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+@media -sass-debug-info{filename{}line{font-family:\0000327}}
+.gu {
+  color: #66cccc;
+  font-weight: bold;
+}
+
+/* Generic.Subheading */
+@media -sass-debug-info{filename{}line{font-family:\0000328}}
+.kc {
+  color: #cc99cc;
+}
+
+/* Keyword.Constant */
+@media -sass-debug-info{filename{}line{font-family:\0000329}}
+.kd {
+  color: #cc99cc;
+}
+
+/* Keyword.Declaration */
+@media -sass-debug-info{filename{}line{font-family:\0000330}}
+.kn {
+  color: #66cccc;
+}
+
+/* Keyword.Namespace */
+@media -sass-debug-info{filename{}line{font-family:\0000331}}
+.kp {
+  color: #cc99cc;
+}
+
+/* Keyword.Pseudo */
+@media -sass-debug-info{filename{}line{font-family:\0000332}}
+.kr {
+  color: #cc99cc;
+}
+
+/* Keyword.Reserved */
+@media -sass-debug-info{filename{}line{font-family:\0000333}}
+.kt {
+  color: #ffcc66;
+}
+
+/* Keyword.Type */
+@media -sass-debug-info{filename{}line{font-family:\0000334}}
+.ld {
+  color: #99cc99;
+}
+
+/* Literal.Date */
+@media -sass-debug-info{filename{}line{font-family:\0000335}}
+.m {
+  color: #f99157;
+}
+
+/* Literal.Number */
+@media -sass-debug-info{filename{}line{font-family:\0000336}}
+.s {
+  color: #99cc99;
+}
+
+/* Literal.String */
+@media -sass-debug-info{filename{}line{font-family:\0000337}}
+.na {
+  color: #6699cc;
+}
+
+/* Name.Attribute */
+@media -sass-debug-info{filename{}line{font-family:\0000338}}
+.nb {
+  color: #f2f0ec;
+}
+
+/* Name.Builtin */
+@media -sass-debug-info{filename{}line{font-family:\0000339}}
+.nc {
+  color: #ffcc66;
+}
+
+/* Name.Class */
+@media -sass-debug-info{filename{}line{font-family:\0000340}}
+.no {
+  color: #f2777a;
+}
+
+/* Name.Constant */
+@media -sass-debug-info{filename{}line{font-family:\0000341}}
+.nd {
+  color: #66cccc;
+}
+
+/* Name.Decorator */
+@media -sass-debug-info{filename{}line{font-family:\0000342}}
+.ni {
+  color: #f2f0ec;
+}
+
+/* Name.Entity */
+@media -sass-debug-info{filename{}line{font-family:\0000343}}
+.ne {
+  color: #f2777a;
+}
+
+/* Name.Exception */
+@media -sass-debug-info{filename{}line{font-family:\0000344}}
+.nf {
+  color: #6699cc;
+}
+
+/* Name.Function */
+@media -sass-debug-info{filename{}line{font-family:\0000345}}
+.nl {
+  color: #f2f0ec;
+}
+
+/* Name.Label */
+@media -sass-debug-info{filename{}line{font-family:\0000346}}
+.nn {
+  color: #ffcc66;
+}
+
+/* Name.Namespace */
+@media -sass-debug-info{filename{}line{font-family:\0000347}}
+.nx {
+  color: #6699cc;
+}
+
+/* Name.Other */
+@media -sass-debug-info{filename{}line{font-family:\0000348}}
+.py {
+  color: #f2f0ec;
+}
+
+/* Name.Property */
+@media -sass-debug-info{filename{}line{font-family:\0000349}}
+.nt {
+  color: #66cccc;
+}
+
+/* Name.Tag */
+@media -sass-debug-info{filename{}line{font-family:\0000350}}
+.nv {
+  color: #f2777a;
+}
+
+/* Name.Variable */
+@media -sass-debug-info{filename{}line{font-family:\0000351}}
+.ow {
+  color: #66cccc;
+}
+
+/* Operator.Word */
+@media -sass-debug-info{filename{}line{font-family:\0000352}}
+.w {
+  color: #f2f0ec;
+}
+
+/* Text.Whitespace */
+@media -sass-debug-info{filename{}line{font-family:\0000353}}
+.mf {
+  color: #f99157;
+}
+
+/* Literal.Number.Float */
+@media -sass-debug-info{filename{}line{font-family:\0000354}}
+.mh {
+  color: #f99157;
+}
+
+/* Literal.Number.Hex */
+@media -sass-debug-info{filename{}line{font-family:\0000355}}
+.mi {
+  color: #f99157;
+}
+
+/* Literal.Number.Integer */
+@media -sass-debug-info{filename{}line{font-family:\0000356}}
+.mo {
+  color: #f99157;
+}
+
+/* Literal.Number.Oct */
+@media -sass-debug-info{filename{}line{font-family:\0000357}}
+.sb {
+  color: #99cc99;
+}
+
+/* Literal.String.Backtick */
+@media -sass-debug-info{filename{}line{font-family:\0000358}}
+.sc {
+  color: #f2f0ec;
+}
+
+/* Literal.String.Char */
+@media -sass-debug-info{filename{}line{font-family:\0000359}}
+.sd {
+  color: #747369;
+}
+
+/* Literal.String.Doc */
+@media -sass-debug-info{filename{}line{font-family:\0000360}}
+.s2 {
+  color: #99cc99;
+}
+
+/* Literal.String.Double */
+@media -sass-debug-info{filename{}line{font-family:\0000361}}
+.se {
+  color: #f99157;
+}
+
+/* Literal.String.Escape */
+@media -sass-debug-info{filename{}line{font-family:\0000362}}
+.sh {
+  color: #99cc99;
+}
+
+/* Literal.String.Heredoc */
+@media -sass-debug-info{filename{}line{font-family:\0000363}}
+.si {
+  color: #f99157;
+}
+
+/* Literal.String.Interpol */
+@media -sass-debug-info{filename{}line{font-family:\0000364}}
+.sx {
+  color: #99cc99;
+}
+
+/* Literal.String.Other */
+@media -sass-debug-info{filename{}line{font-family:\0000365}}
+.sr {
+  color: #99cc99;
+}
+
+/* Literal.String.Regex */
+@media -sass-debug-info{filename{}line{font-family:\0000366}}
+.s1 {
+  color: #99cc99;
+}
+
+/* Literal.String.Single */
+@media -sass-debug-info{filename{}line{font-family:\0000367}}
+.ss {
+  color: #99cc99;
+}
+
+/* Literal.String.Symbol */
+@media -sass-debug-info{filename{}line{font-family:\0000368}}
+.bp {
+  color: #f2f0ec;
+}
+
+/* Name.Builtin.Pseudo */
+@media -sass-debug-info{filename{}line{font-family:\0000369}}
+.vc {
+  color: #f2777a;
+}
+
+/* Name.Variable.Class */
+@media -sass-debug-info{filename{}line{font-family:\0000370}}
+.vg {
+  color: #f2777a;
+}
+
+/* Name.Variable.Global */
+@media -sass-debug-info{filename{}line{font-family:\0000371}}
+.vi {
+  color: #f2777a;
+}
+
+/* Name.Variable.Instance */
+@media -sass-debug-info{filename{}line{font-family:\0000372}}
+.il {
+  color: #f99157;
+}
+
+/* Literal.Number.Integer.Long */
