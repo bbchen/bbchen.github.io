@@ -18,7 +18,11 @@ INDEX_DESCRIPTION = 'Website and blog of bbchen, an Earth scientist from Honolul
 
 SIDEBAR_LINKS = [
     '<a href="/about.html">About</a>',
-    '<a href="/archive/">Archive</a>',
+    '<a href="/archive/">Blog</a>',
+]
+
+BLOGROLL_LINKS = [
+    '<a class="fa fa-share-alt" href="//ztever.com">ztever</a>',
 ]
 
 # Paths

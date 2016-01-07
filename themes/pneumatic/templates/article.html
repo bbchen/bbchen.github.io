@@ -21,12 +21,12 @@
 <time class="date" datetime="{{ article.date }}">{{ article.locale_date }}</time>
 <hr>
 <div class="content">
+	{% if article.tags %} 
 	<ul class="tags">
-		{% if article.tags %} 
 		<li class="fa fa-tags">&nbsp;<a href="{{ SITEURL }}/tags.html">Tags</a>:</li>
 		{% for tag in article.tags %}<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>{% endfor %}
-		{% endif %}
 	</ul>
+	{% endif %}
 	{{ article.content }}
 </div>
 
