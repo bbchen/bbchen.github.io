@@ -7,7 +7,7 @@ DEFAULT_LANG = u'en'
 # Theme-specific settings
 SITENAME = 'Zen Life'
 DOMAIN = 'bbchen.github.io'
-SITEURL = 'http://bbchen.github.io'
+SITEURL = 'https://bbchen.github.io'
 BIO_TEXT = 'Research, Earth Science, & Zen Life'
 FOOTER_TEXT = 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
 

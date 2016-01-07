@@ -6,7 +6,7 @@
 	<h1 class="title"><a href="/archive/">Archive</a></h1>
 	<div class="content">
 		{% for year, articles in dates | groupby('date.year') | sort(reverse=True) %}
-		<h2><a href="/{{ year }}/">{{ year }}</a></h2>
+		<h2><a href="{{ SITEURL }}/posts/{{ year }}/">{{ year }}</a></h2>
 		<ul>
 			{% for article in articles | sort(attribute='date', reverse=True) %}
 			<li><a href="/{{ article.url }}">{{ article.title }}</a> <time class="date" datetime="{{ article.date }}">&raquo; {{ article.locale_date }}</time></li>
