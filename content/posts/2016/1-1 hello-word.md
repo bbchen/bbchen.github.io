@@ -16,4 +16,4 @@ As a note to myself in this "***Hello World!***" message, I would like to form t
 - **Writing**: I am going to write on average one blog post (at least 700 words) every 2-3 weeks to record my life and keep myself on track.
 - **Reading**: I am going to read one book per month. See my [Book Reading List]({filename}/pages/book-list.md), which will be updated routinely.
 
-If you find anything useful in my website, feel free to share them.
+If you find anything useful in my website, feel free to share them. All the content in my website is uncopyrighted. 

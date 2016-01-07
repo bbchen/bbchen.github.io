@@ -8,7 +8,7 @@ DEFAULT_LANG = u'en'
 SITENAME = 'Zen Life'
 DOMAIN = 'bbchen.github.io'
 SITEURL = 'http://bbchen.github.io'
-BIO_TEXT = 'Earth Science, Zen Life'
+BIO_TEXT = 'Research, Earth Science, & Zen Life'
 FOOTER_TEXT = 'Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://pages.github.com">GitHub&nbsp;Pages</a>.'
 
 SITE_AUTHOR = 'bbchen'
@@ -17,7 +17,7 @@ GOOGLE_PLUS_URL = 'https://plus.google.com/+bbchen'
 INDEX_DESCRIPTION = 'Website and blog of bbchen, an Earth scientist from Honolulu, HI, USA'
 
 SIDEBAR_LINKS = [
-    '<a href="/about/">About</a>',
+    '<a href="/about.html">About</a>',
     '<a href="/archive/">Archive</a>',
 ]
 
@@ -52,13 +52,13 @@ TIMEZONE = 'US/Pacific-New'
 DEFAULT_DATE = 'fs'
 DEFAULT_DATE_FORMAT = '%B %d, %Y'
 DEFAULT_PAGINATION = False
-SUMMARY_MAX_LENGTH = 42
+SUMMARY_MAX_LENGTH = 60
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
-ARTICLE_SAVE_AS = ARTICLE_URL + 'index.html'
+ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_SAVE_AS = ARTICLE_URL # + 'index.html'
 
-PAGE_URL = '{slug}/'
-PAGE_SAVE_AS = PAGE_URL + 'index.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = PAGE_URL #+ 'index.html'
 
 ARCHIVES_SAVE_AS = 'archive/index.html'
 YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
@@ -132,3 +132,4 @@ ASSET_CONFIG = [
 ]
 
 DISQUS_SITENAME = 'zen-life'
+GOOGLE_ANALYTICS = 'UA-72141705-1'
