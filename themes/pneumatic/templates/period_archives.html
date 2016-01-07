@@ -13,7 +13,7 @@
 			{% endif %}
 			<ul>
 				{% for article in articles | sort(attribute='date') %}
-				<li><a href="/{{ article.url }}">{{ article.title }}</a> &raquo; {{ article.locale_date }}</li>
+				<li><a href="/{{ article.url }}">{{ article.title }}</a> <time class="date" datetime="{{ article.date }}">&raquo; {{ article.locale_date }}</time></li>
 				{% endfor %}
 			</ul>
 		{% endfor %}

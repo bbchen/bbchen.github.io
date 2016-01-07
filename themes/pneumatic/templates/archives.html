@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Archive | {{ SITENAME }}{% endblock %}
+{% block title %} Archive | {{ SITENAME }} {% endblock %}
 
 {% block content %}
 	<h1 class="title"><a href="/archive/">Archive</a></h1>
@@ -9,7 +9,7 @@
 		<h2><a href="/{{ year }}/">{{ year }}</a></h2>
 		<ul>
 			{% for article in articles | sort(attribute='date', reverse=True) %}
-			<li><a href="/{{ article.url }}">{{ article.title }}</a> &raquo; {{ article.locale_date }}</li>
+			<li><a href="/{{ article.url }}">{{ article.title }}</a> <time class="date" datetime="{{ article.date }}">&raquo; {{ article.locale_date }}</time></li>
 			{% endfor %}
 		</ul>
 		{% endfor %}

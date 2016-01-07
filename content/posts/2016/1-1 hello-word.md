@@ -2,7 +2,7 @@ Title: Hello Word
 Slug: hello-word
 Date: 2016-01-01 11:26
 Modified: 2016-01-05 11:25
-Category: 
+Tags: about, introduction, zen habits
 Status: published
 
 > Change will come; may you have the wisdom and courage to adapt -- Robert Hazen

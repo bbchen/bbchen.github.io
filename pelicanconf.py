@@ -54,18 +54,18 @@ DEFAULT_DATE_FORMAT = '%B %d, %Y'
 DEFAULT_PAGINATION = False
 SUMMARY_MAX_LENGTH = 60
 
-ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%m}-{date:%d}-{slug}.html'
 ARTICLE_SAVE_AS = ARTICLE_URL # + 'index.html'
 
 PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = PAGE_URL #+ 'index.html'
 
 ARCHIVES_SAVE_AS = 'archive/index.html'
-YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
-MONTH_ARCHIVE_SAVE_AS = '{date:%Y}/{date:%m}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
 
-# Disable authors, categories, tags, and category pages
-DIRECT_TEMPLATES = ['index', 'archives']
+# Disable authors, tags, and category pages
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'archives']
 CATEGORY_SAVE_AS = ''
 
 # Disable Atom feed generation
@@ -85,7 +85,6 @@ DISPLAY_ARCHIVES_ON_MENU = False
 #     )
 
 # Templates
-DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives')
 PAGINATED_DIRECT_TEMPLATES = ('index',)
 STATIC_PATHS = ['theme/images', 'images', 'CNAME']
 
@@ -122,7 +121,7 @@ EXTRA_PATH_METADATA = {'extra/%s' % file: {'path': file} for file in extras}
 
 # Plugins
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['assets', 'neighbors', 'render_math']
+PLUGINS = ['assets', 'neighbors', 'render_math', 'tag_cloud']
 ASSET_SOURCE_PATHS = ['static']
 ASSET_CONFIG = [
    ('cache', False),
@@ -133,3 +132,9 @@ ASSET_CONFIG = [
 
 DISQUS_SITENAME = 'zen-life'
 GOOGLE_ANALYTICS = 'UA-72141705-1'
+
+# Tag could settings
+TAG_CLOUD_STEPS = 10
+TAG_CLOUD_MAX_ITEMS = 100
+TAG_CLOUD_SORTING = 'random'
+TAG_CLOUD_BADGE = True

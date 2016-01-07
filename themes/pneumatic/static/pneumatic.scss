@@ -284,6 +284,20 @@ aside div {
 	display: block;
 }
 
+ul.tags {
+	display: inline-block;
+	float: right;
+	list-style: none;
+	border: 1px dashed #ddd;
+	padding: 4px;
+	margin: auto 0;
+
+	li {
+		text-align: right;
+		line-height: 1.2em;
+	}
+}
+
 .content {
 	clear: both;
 	overflow: hidden;
@@ -366,4 +380,65 @@ aside div {
 	.container { width: 85%; }
 	p a:after { content:" ["attr(href)"]"; }
 	.linenos { border-right: none; }
+}
+
+// Tag cloud css
+
+li {
+	&.tag-10 {
+		font-size: 1.0em; 
+		font-weight: 100;
+	}
+	&.tag-9 {
+		font-size: 1.2em;
+		font-weight: 200;
+	}
+	&.tag-8 {
+		font-size: 1.4em;
+		font-weight: 300;
+	}
+	&.tag-7 {
+		font-size: 1.6em;
+		font-weight: 400;
+	}
+	&.tag-6 {
+		font-size: 1.8em;
+		font-weight: 500;
+	}
+	&.tag-5 {
+		font-size: 2.0em;
+		font-weight: 600;
+	}
+	&.tag-4 {
+		font-size: 2.2em;
+		font-weight: 700;
+	}
+	&.tag-3 {
+		font-size: 2.4em;
+		font-weight: 800;
+	}
+	&.tag-2 {
+		font-size: 2.6em;
+		font-weight: 1000;
+	}
+	&.tag-1 {
+		font-size: 2.8em;
+		font-weight: 1200;
+	}
+}
+ul.tagcloud {
+	list-style: none;
+	padding: 0px;
+	li {
+		display: inline-block;
+		//line-height: 2.4em;
+		//text-align: center;
+		padding: 6px;
+	}
+	.badge {
+		text-size: 50%;
+		vertical-align: super; 
+		//content: "+";
+		color: $accent-colour;
+	}
 }
