@@ -1,10 +1,10 @@
 Title: Habit 1: Become an Early Riser
 Slug: habit-1-become-an-early-riser
 Date: 2016-01-07 08:35
-Tags: zen habits, habit
+Tags: zen habits, habit, review
 Status: published
 
-# New habit: Become an early riser
+## New habit: Become an early riser
 
 Right now, I get up at about 7 am and sleep at midnight (12-1 am). In the month of January, I will sleep early and get up early. My final aim is to get up at 5 am in the morning, after 6-7 hours sleep. So I need to sleep before 11 pm.
 
