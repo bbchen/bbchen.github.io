@@ -1,9 +1,0 @@
-Title: Book List
-Slug: book-list
-Date: 2016-01-05
-Status: published
-
-Here is the list of the books I am reading:
-
-- Leo Babauta (2015) *Essential Zen Habits: Mastering the Art of Change, Briefly*.
-- Robert M. Hazen (2012) *The Story of Earth*. 306pp.

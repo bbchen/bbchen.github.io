@@ -1,0 +1,42 @@
+baseurl = "http://bbchen.github.io"
+languageCode = "en"
+title = "B. Chen's Site"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/bbchen\">B. Chen</a> 2016"
+disqusShortname = "zen-life"
+googleAnalytics = "UA-72141705-1"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/bbchen"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/bbchen"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+[[menu.main]]
+    name = "about"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "contact"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/contact/"
+[[menu.main]]
+    name = "now"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/now/"

@@ -1,66 +1,70 @@
-<<<<<<< HEAD
-#StasisTemplate
+# Hemingway
 
-[Stasis](http://stasis.me) project template.
+Hemingway is a really minimal blog theme for hugo.
 
-Use this template to develop an awesome static web site.
+![](https://github.com/tanksuzuki/hemingway/blob/master/images/tn.png)
 
-##Install gitcms
+## Getting Started
 
-	gem install gitcms
+Clone this repository to your hugo theme directory.
 
-##Create project
+```
+mkdir themes
+cd themes
+git clone https://github.com/tanksuzuki/hemingway.git
+```
 
-	gitcms new my_project
+## Configuration
 
-##Install dependencies
+Take a look in the [exampleSite](https://github.com/tanksuzuki/hemingway/tree/master/exampleSite) folder.
 
-	bundle install
+This directory contains an example config file and the content for the demo.
+It serves as an example setup for your documentation.
 
-##Start developing
+Copy the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
 
-	gitcms server
+__[config.toml](https://github.com/tanksuzuki/hemingway/blob/master/exampleSite/config.toml)__:
 
-## Deploy
+```toml
+baseurl = "https://example.com"
+languageCode = "en"
+title = "Hemingway"
+theme = "hemingway"
+copyright = "&copy; <a href=\"https://github.com/tanksuzuki\">Asuka Suzuki</a> 2016"
+disqusShortname = "shortname"
+googleAnalytics = ""
 
-Sign up at [gitcms.com](http://gitcms.com) and deploy to [CloudFront](http://aws.amazon.com/cloudfront) in one step:
+[params]
 
-	gitcms deploy
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
 
-## Update bootstrap
+[[params.social]]
+url = "https://github.com/tanksuzuki"
+fa_icon = "fa-github"
 
-	gitcms bootstrap
+[[params.social]]
+url = "https://twitter.com/tanksuzuki"
+fa_icon = "fa-twitter"
 
-## Stay up to date
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+```
 
-[Watch this project](https://github.com/winton/stasis_template#) on Github.
+## Build
 
-[Follow Winton Welsh](http://twitter.com/intent/user?screen_name=wintonius) on Twitter.
-=======
-# iKevinY.github.io [![1]][2] <img align="right" width=76 src="content/images/icons/apple-touch-icon-152x152.png?raw=true"/>
+```
+hugo server
+```
 
-This repository contains both the static site files and the source files used
-to generate **[kevinyap.ca]**. The website is generated with [Pelican] using a
-custom theme: [Pneumatic]. In order to host with [GitHub Pages], the repository
-contains two distinct branches; the [`src`] branch contains the source files
-that Pelican uses to generate the static files which are automatically
-[pushed][generate.sh] to the [`master`] branch by Travis CI (see
-[this blog post][travis-article] for more information on the process).
+You can go to localhost:1313 and this theme should be visible.
 
-Code is licensed under the [MIT License], and articles under a [Creative
-Commons Attribution License].
+## License
 
-[1]: http://img.shields.io/travis/iKevinY/iKevinY.github.io/src.svg?style=flat "Build Status"
-[2]: https://travis-ci.org/iKevinY/iKevinY.github.io
+Hemingway is licensed under the [MIT License](LICENSE.md).
 
-[kevinyap.ca]: http://kevinyap.ca
-[Pelican]: http://getpelican.com
-[Pneumatic]: https://github.com/iKevinY/pneumatic
-[`src`]: https://github.com/iKevinY/iKevinY.github.io/tree/src
-[`master`]: https://github.com/iKevinY/iKevinY.github.io/tree/master
-[GitHub Pages]: http://pages.github.com
-[generate.sh]: https://github.com/iKevinY/iKevinY.github.io/blob/src/generate.sh#L62
-[travis-article]: http://kevinyap.ca/2014/06/deploying-pelican-sites-using-travis-ci/
-[MIT License]: http://github.com/iKevinY/iKevinY.github.io/blob/src/LICENSE
-[Creative Commons Attribution License]: http://creativecommons.org/licenses/by/4.0/
->>>>>>> master
+## Author
+
+[Asuka Suzuki](https://github.com/tanksuzuki)
