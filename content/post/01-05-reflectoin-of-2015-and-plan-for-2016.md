@@ -1,5 +1,6 @@
 ---
 title: Reflection of 2015 and Plan for 2016
+Slug: reflection-of-2015-and-plan-for-2016
 date: 2016-01-05
 tags: zen habits, review, reflection, productivity
 draft: false

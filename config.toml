@@ -51,4 +51,4 @@ fa_icon = "fa-rss"
     url = "/now/"
 
 [permalinks]
-  post = "/posts/:year/:month/:title.html"
+    post = "/post/:year/:month/:title.html"
