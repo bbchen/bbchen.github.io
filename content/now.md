@@ -4,12 +4,10 @@ title = "What I'm Doing Now"
 slug = "now"
 +++
 
+**I have been doing the following recently:**
 
-These days I spend most of the time on my job, as a Product Marketing Manager for Latin America at a Fortune 500 company. 
-
-I spend most of my free time learning front end web development, through online courses at Treehouse, Codecademy and Coursera. I also recently enrolled in the WebDev program at [The Idea Center](http://theideacenter.co). 
-
-Other than that, I am an avid soccer fan, and usually catch some good games on the weekends, especially if my favorite team, River Plate, is playing. 
+- [Book Reading List](/book-list) -- list of books that I have read and am currently reading...
+- [Habits](/habits) -- list of habits that I am currently sticking to, following the [Zen Habits](http://zenhabits.net/) principals.
 
 This page was inspired by the awesome [Derek Sivers](http://www.sivers.org/nowff).
 

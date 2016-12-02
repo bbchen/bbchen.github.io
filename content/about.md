@@ -16,11 +16,6 @@ These are some of the applications, websites, and technologies that I use on a r
 - [Omnifocus](https://www.omnigroup.com/omnifocus) -- Mac application adopting the GTD productivity principals
 - [Zen Habits](http://zenhabits.net) -- Zen Habits is about finding simplicity and mindfulness in the daily chaos of our lives. It’s about clearing the clutter so we can focus on what’s important, create something amazing, find happiness.
 
-***What I have been doing right now***:
-
-- [Book Reading List](/book-list) -- list of books that I have read and am currently reading...
-- [Habits](/habits) -- list of habits that I am currently sticking to, following the [Zen Habits](http://zenhabits.net/) principals.
-
 ### Other Details ###
 - [Github](http://www.github.com/bbchen)
 - [Twitter](http://www.twitter.com/bbchen)

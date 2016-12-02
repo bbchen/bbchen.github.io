@@ -1,6 +1,6 @@
 ---
 title: Habit 1, Become an Early Riser
-Slug: habit-1-become-an-early-riser
+slug: habit-1-become-an-early-riser
 date: 2016-01-07
 tags: Zen habits, habit, review
 draft: false

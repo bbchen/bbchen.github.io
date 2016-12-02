@@ -2,8 +2,6 @@ from fabric.api import *
 import fabric.contrib.project as project
 import os
 import sys
-#import SimpleHTTPServer
-#import SocketServer
 import datetime
 import re
 import codecs
@@ -19,20 +17,6 @@ env.content_path = 'content'
 DEPLOY_PATH = env.deploy_path
 CONTENT_PATH = env.content_path
 
-# Remote server configuration
-# production = 'binchen@imina.soest.hawaii.edu:22'
-#dest_path = '/httpd/htdocs/HIGP/Faculty/binchen'
-
-# # Rackspace Cloud Files configuration settings
-# env.cloudfiles_username = 'my_rackspace_username'
-# env.cloudfiles_api_key = 'my_rackspace_api_key'
-# env.cloudfiles_container = 'my_cloudfiles_container'
-# dest_path = '/httpd/htdocs/HIGP/Faculty/binchen'
-
-# Rackspace Cloud Files configuration settings
-# env.cloudfiles_username = 'my_rackspace_username'
-# env.cloudfiles_api_key = 'my_rackspace_api_key'
-# env.cloudfiles_container = 'my_cloudfiles_container'
 env.github_address = "https://github.com/bbchen/bbchen.github.io.git"
 
 def clean():
@@ -54,15 +38,6 @@ def reserve():
     build()
     serve()
 
-# def cf_upload():
-#     rebuild()
-#     local('cd {deploy_path} && '
-#           'swift -v -A https://auth.api.rackspacecloud.com/v1.0 '
-#           '-U {cloudfiles_username} '
-#           '-K {cloudfiles_api_key} '
-#           'upload -c {cloudfiles_container} .'.format(**env))
-
-
 def github():
     # github_source()
     build()
@@ -75,11 +50,5 @@ def github_source():
           'git push origin source'.format(**env))
 
 def publish():
-    local('hugo -v')
-    project.rsync_project(
-        remote_dir=dest_path,
-        exclude=".DS_Store",
-        local_dir=DEPLOY_PATH.rstrip('/') + '/',
-        delete=True,
-        extra_opts='-c',
-    )
+    github_source()
+    github()
