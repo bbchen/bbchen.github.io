@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>B. Chen&#39;s Site</title>
+    <title>Zen Life</title>
     <link>http://bbchen.github.io/index.xml</link>
-    <description>Recent content on B. Chen&#39;s Site</description>
+    <description>Recent content on Zen Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/bbchen&#34;&gt;B. Chen&lt;/a&gt; 2016</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/bbchen&#34;&gt;Zen Life&lt;/a&gt; 2016</copyright>
     <lastBuildDate>Thu, 07 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://bbchen.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Habit 1: Become an Early Riser</title>
-      <link>http://bbchen.github.io/post/1-7%20habit-1:-become-an-early-riser/</link>
+      <title>Habit 1, Become an Early Riser</title>
+      <link>http://bbchen.github.io/posts/2016/01/habit-1-become-an-early-riser.html</link>
       <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-7%20habit-1:-become-an-early-riser/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/habit-1-become-an-early-riser.html</guid>
       <description>
 
 &lt;h2 id=&#34;new-habit-become-an-early-riser&#34;&gt;New habit: Become an early riser&lt;/h2&gt;
@@ -55,11 +55,11 @@
     
     <item>
       <title>Book List</title>
-      <link>http://bbchen.github.io/book-list/</link>
+      <link>http://bbchen.github.io/book-list.html</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/book-list/</guid>
-      <description>&lt;p&gt;Here is the list of the books I am reading:&lt;/p&gt;
+      <guid>http://bbchen.github.io/book-list.html</guid>
+      <description>&lt;p&gt;Here is the list of the &lt;strong&gt;books&lt;/strong&gt; I am reading:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Leo Babauta (2015) &lt;em&gt;Essential Zen Habits: Mastering the Art of Change, Briefly&lt;/em&gt;.&lt;/li&gt;
@@ -70,10 +70,10 @@
     
     <item>
       <title>Habit</title>
-      <link>http://bbchen.github.io/habits/</link>
+      <link>http://bbchen.github.io/habits.html</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/habits/</guid>
+      <guid>http://bbchen.github.io/habits.html</guid>
       <description>&lt;p&gt;Create a new habit every 5-6 weeks:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -89,10 +89,10 @@
     
     <item>
       <title>Reflection of 2015 and Plan for 2016</title>
-      <link>http://bbchen.github.io/post/1-5%20reflectoin-of-2015-and-plan-for-2016/</link>
+      <link>http://bbchen.github.io/posts/2016/01/reflection-of-2015-and-plan-for-2016.html</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-5%20reflectoin-of-2015-and-plan-for-2016/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/reflection-of-2015-and-plan-for-2016.html</guid>
       <description>&lt;p&gt;At the beginning of the year, I always would like to ask myself the following questions:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -156,10 +156,10 @@
     
     <item>
       <title>Hello Word</title>
-      <link>http://bbchen.github.io/post/1-1%20hello-word/</link>
+      <link>http://bbchen.github.io/posts/2016/01/hello-word.html</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-1%20hello-word/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/hello-word.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Change will come; may you have the wisdom and courage to adapt&lt;br /&gt;
 — Robert Hazen&lt;/p&gt;
@@ -182,10 +182,10 @@
     
     <item>
       <title>What I&#39;m Doing Now</title>
-      <link>http://bbchen.github.io/now/</link>
+      <link>http://bbchen.github.io/now.html</link>
       <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/now/</guid>
+      <guid>http://bbchen.github.io/now.html</guid>
       <description>&lt;p&gt;These days I spend most of the time on my job, as a Product Marketing Manager for Latin America at a Fortune 500 company.&lt;/p&gt;
 
 &lt;p&gt;I spend most of my free time learning front end web development, through online courses at Treehouse, Codecademy and Coursera. I also recently enrolled in the WebDev program at &lt;a href=&#34;http://theideacenter.co&#34;&gt;The Idea Center&lt;/a&gt;.&lt;/p&gt;
@@ -200,22 +200,20 @@
     
     <item>
       <title>Contact Me</title>
-      <link>http://bbchen.github.io/contact/</link>
+      <link>http://bbchen.github.io/contact.html</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/contact/</guid>
+      <guid>http://bbchen.github.io/contact.html</guid>
       <description>&lt;p&gt;The best way to reach me is by Email: &lt;a href=&#34;mailto:bbchen@gmail.com&#34;&gt;bbchen@gmail.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For other ways to contact me, look below :)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Stack</title>
-      <link>http://bbchen.github.io/colophon/</link>
+      <link>http://bbchen.github.io/colophon.html</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/colophon/</guid>
+      <guid>http://bbchen.github.io/colophon.html</guid>
       <description>&lt;p&gt;This site is a DIY project to put in practice what I learn in my web development education journey.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m currently using a &lt;a href=&#34;https://davidwalsh.name/introduction-static-site-generators&#34;&gt;static site generator&lt;/a&gt; made with &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo takes content written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; and blends it with a set of templates that combine HTML and Go code, producing a static site that I then deploy to the public web via &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
@@ -232,14 +230,13 @@
     
     <item>
       <title>About</title>
-      <link>http://bbchen.github.io/about/</link>
+      <link>http://bbchen.github.io/about.html</link>
       <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/about/</guid>
+      <guid>http://bbchen.github.io/about.html</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://bbchen.github.io/images/avatar.png&#34; class=&#34;profile&#34;&gt;
-I&amp;rsquo;m an Earth Scientist from Honolulu, Hawaii, USA. I am passionate about science, technology, art, literature, and nature. Through this platform, I am sharing my thoughts, ideas, tips, and cool stuff to you and other readers.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m an Earth Scientist from Honolulu, Hawaii, USA. I am passionate about science, technology, art, literature, and nature. Through this platform, I am sharing my thoughts, ideas, tips, and cool stuff to you and other readers.&lt;/p&gt;
 
 &lt;p&gt;This website is generated with &lt;a href=&#34;http://getpelican.com&#34;&gt;Pelican&lt;/a&gt;, hosted on &lt;a href=&#34;http://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&#34;https://github.com/bbchen/bbchen.github.io&#34;&gt;open sourced&lt;/a&gt; on GitHub. The site&amp;rsquo;s theme is &lt;a href=&#34;https://github.com/iKevinY/pneumatic&#34;&gt;Pneumatic&lt;/a&gt;, using &lt;a href=&#34;http://chriskempson.github.io/base16/#eighties&#34;&gt;Eighties Dark&lt;/a&gt; for syntax highlighting. Articles are licensed under a &lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution&lt;/a&gt; license.&lt;/p&gt;
 
@@ -261,14 +258,11 @@ I&amp;rsquo;m an Earth Scientist from Honolulu, Hawaii, USA. I am passionate abo
 
 &lt;h3 id=&#34;other-details&#34;&gt;Other Details&lt;/h3&gt;
 
-&lt;p&gt;&lt;details&gt;
-    &lt;summary&gt;&lt;strong&gt;Public Profiles&lt;/strong&gt;&lt;/summary&gt;
-    &lt;ul&gt;
-&lt;li&gt; &lt;a href=&#34;http://www.github.com/bbchen&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;http://www.twitter.com/bbchen&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt; &lt;a href=&#34;http://www.linkedin.com/in/bbchen&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.github.com/bbchen&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.twitter.com/bbchen&#34;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.linkedin.com/in/bbchen&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/details&gt;&lt;/p&gt;
 </description>
     </item>
     

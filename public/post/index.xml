@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on B. Chen&#39;s Site</title>
-    <link>http://bbchen.github.io/post/index.xml</link>
-    <description>Recent content in Post-rsses on B. Chen&#39;s Site</description>
+    <title>Post-rsses on Zen Life</title>
+    <link>http://bbchen.github.io/post.xml</link>
+    <description>Recent content in Post-rsses on Zen Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/bbchen&#34;&gt;B. Chen&lt;/a&gt; 2016</copyright>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/bbchen&#34;&gt;Zen Life&lt;/a&gt; 2016</copyright>
     <lastBuildDate>Thu, 07 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://bbchen.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bbchen.github.io/post.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Habit 1: Become an Early Riser</title>
-      <link>http://bbchen.github.io/post/1-7%20habit-1:-become-an-early-riser/</link>
+      <title>Habit 1, Become an Early Riser</title>
+      <link>http://bbchen.github.io/posts/2016/01/habit-1-become-an-early-riser.html</link>
       <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-7%20habit-1:-become-an-early-riser/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/habit-1-become-an-early-riser.html</guid>
       <description>
 
 &lt;h2 id=&#34;new-habit-become-an-early-riser&#34;&gt;New habit: Become an early riser&lt;/h2&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>Reflection of 2015 and Plan for 2016</title>
-      <link>http://bbchen.github.io/post/1-5%20reflectoin-of-2015-and-plan-for-2016/</link>
+      <link>http://bbchen.github.io/posts/2016/01/reflection-of-2015-and-plan-for-2016.html</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-5%20reflectoin-of-2015-and-plan-for-2016/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/reflection-of-2015-and-plan-for-2016.html</guid>
       <description>&lt;p&gt;At the beginning of the year, I always would like to ask myself the following questions:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -122,10 +122,10 @@
     
     <item>
       <title>Hello Word</title>
-      <link>http://bbchen.github.io/post/1-1%20hello-word/</link>
+      <link>http://bbchen.github.io/posts/2016/01/hello-word.html</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/post/1-1%20hello-word/</guid>
+      <guid>http://bbchen.github.io/posts/2016/01/hello-word.html</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Change will come; may you have the wisdom and courage to adapt&lt;br /&gt;
 — Robert Hazen&lt;/p&gt;

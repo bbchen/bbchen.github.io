@@ -1,10 +1,17 @@
 baseurl = "http://bbchen.github.io"
 languageCode = "en"
-title = "B. Chen's Site"
+title = "Zen Life"
 theme = "hemingway"
-copyright = "&copy; <a href=\"https://github.com/bbchen\">B. Chen</a> 2016"
+copyright = "&copy; <a href=\"https://github.com/bbchen\">Zen Life</a> 2016"
 disqusShortname = "zen-life"
 googleAnalytics = "UA-72141705-1"
+
+hasCJKLanguage = true
+uglyurls = true
+
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+newContentEditor = "subl"
 
 [params]
 
@@ -24,19 +31,24 @@ fa_icon = "fa-twitter"
 url = "/index.xml"
 fa_icon = "fa-rss"
 
+[menu]
+
 [[menu.main]]
-    name = "about"
+    name = "About"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
     identifier = "about"
     url = "/about/"
 [[menu.main]]
-    name = "contact"
+    name = "Contact"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
     url = "/contact/"
 [[menu.main]]
-    name = "now"
+    name = "Now"
     pre = "<i class='fa fa-road'></i>"
-    weight = -100
+    weight = -120
     url = "/now/"
+
+[permalinks]
+  post = "/posts/:year/:month/:title.html"
