@@ -6,7 +6,9 @@
       <h1 class="title">
         {{ .Title }}  <!-- title, in this case it will be "blog index" -->
       </h1>
+      <div class="content">
       {{ .Content }} <!-- content of the markdown file. note that inside the range .Content will point to each page's content -->
+      </div>
       {{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
       <section>
         <h1 class="title is-4">{{ .Key }}</h1>

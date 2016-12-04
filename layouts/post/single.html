@@ -16,7 +16,7 @@
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-left"></i>
             </span>
-            Previous: {{ .PrevInSection.Title }}
+            {{ .PrevInSection.Title }}
           </a>
           {{ else }}
           <a class="button is-disabled">
@@ -32,7 +32,7 @@
         <div class="level-item">
           {{ if .NextInSection }}
           <a class="button" href="{{ .NextInSection.Permalink }}">
-            Next: {{ .NextInSection.Title }}
+            {{ .NextInSection.Title }}
             <span class="icon is-small is-marginless">
               <i class="fa fa-angle-right"></i>
             </span>

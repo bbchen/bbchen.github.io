@@ -75,22 +75,23 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>About</title>
-      <link>http://bbchen.github.io/about.html</link>
+      <link>http://bbchen.github.io/about/</link>
       <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/about.html</guid>
+      <guid>http://bbchen.github.io/about/</guid>
       <description>
 
-&lt;p&gt;I&amp;rsquo;m an Earth Scientist from Honolulu, Hawaii, USA. I am passionate about science, technology, art, literature, and nature. Through this platform, I am sharing my thoughts, ideas, tips, and cool stuff to you and other readers.&lt;/p&gt;
+&lt;p&gt;I am an Earth Scientist from Honolulu, Hawaii, USA. I am passionate about science, technology, art, literature, and nature. Through this platform, I am sharing my thoughts, ideas, tips, and cool stuff to you and other readers.&lt;/p&gt;
 
-&lt;p&gt;This website is generated with &lt;a href=&#34;http://getpelican.com&#34;&gt;Pelican&lt;/a&gt;, hosted on &lt;a href=&#34;http://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&#34;https://github.com/bbchen/bbchen.github.io&#34;&gt;open sourced&lt;/a&gt; on GitHub. The site&amp;rsquo;s theme is &lt;a href=&#34;https://github.com/iKevinY/pneumatic&#34;&gt;Pneumatic&lt;/a&gt;, using &lt;a href=&#34;http://chriskempson.github.io/base16/#eighties&#34;&gt;Eighties Dark&lt;/a&gt; for syntax highlighting. Articles are licensed under a &lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution&lt;/a&gt; license.&lt;/p&gt;
+&lt;p&gt;This website is generated with &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, hosted on &lt;a href=&#34;http://pages.github.com&#34;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&#34;https://github.com/bbchen/bbchen.github.io&#34;&gt;open sourced&lt;/a&gt; on GitHub.  Articles are licensed under a &lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;Creative Commons Attribution&lt;/a&gt; license.&lt;/p&gt;
 
 &lt;p&gt;These are some of the applications, websites, and technologies that I use on a regular basis:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.sublimetext.com&#34;&gt;Sublime Text&lt;/a&gt; &amp;ndash; source code editor with a wide variety of plugins available&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.sublimetext.com&#34;&gt;Sublime Text&lt;/a&gt; &amp;ndash; source code editor with a wide variety of plugins available.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ia.net&#34;&gt;iAWriter&lt;/a&gt; &amp;ndash; minimal but powerful markdown editor. I use it for my daily writings.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt; &amp;ndash; online Git-based project hosting&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.omnigroup.com/omnifocus&#34;&gt;Omnifocus&lt;/a&gt; &amp;ndash; Mac application adopting the GTD productivity principals&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.omnigroup.com/omnifocus&#34;&gt;Omnifocus&lt;/a&gt; &amp;ndash; Mac application adopting the GTD productivity principals.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://zenhabits.net&#34;&gt;Zen Habits&lt;/a&gt; &amp;ndash; Zen Habits is about finding simplicity and mindfulness in the daily chaos of our lives. It’s about clearing the clutter so we can focus on what’s important, create something amazing, find happiness.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -106,20 +107,20 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>What I&#39;m Doing Now</title>
-      <link>http://bbchen.github.io/now.html</link>
+      <link>http://bbchen.github.io/now/</link>
       <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/now.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;I have been doing the following recently:&lt;/strong&gt;&lt;/p&gt;
+      <guid>http://bbchen.github.io/now/</guid>
+      <description>&lt;p&gt;I am an Earth scientists, focusing on deep Earth research. This page lists what I am currently doing for my life and research.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://bbchen.github.io/book-list&#34;&gt;Book Reading List&lt;/a&gt; &amp;ndash; list of books that I have read and am currently reading&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bbchen.github.io/book-list&#34;&gt;Book Reading List&lt;/a&gt; &amp;ndash; list of books that I have read and am currently reading&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://bbchen.github.io/habits&#34;&gt;Habits&lt;/a&gt; &amp;ndash; list of habits that I am currently sticking to, following the &lt;a href=&#34;http://zenhabits.net/&#34;&gt;Zen Habits&lt;/a&gt; principals.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This page was inspired by the awesome &lt;a href=&#34;http://www.sivers.org/nowff&#34;&gt;Derek Sivers&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Last Updated: November 29, 2016&lt;/p&gt;
+&lt;p&gt;Last Updated: Dec 4, 2016&lt;/p&gt;
 </description>
     </item>
     
@@ -168,10 +169,10 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>Book List</title>
-      <link>http://bbchen.github.io/book-list.html</link>
+      <link>http://bbchen.github.io/book-list/</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/book-list.html</guid>
+      <guid>http://bbchen.github.io/book-list/</guid>
       <description>&lt;p&gt;Here is the list of the &lt;strong&gt;books&lt;/strong&gt; I am reading:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -183,10 +184,10 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>Habit</title>
-      <link>http://bbchen.github.io/habits.html</link>
+      <link>http://bbchen.github.io/habits/</link>
       <pubDate>Tue, 05 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/habits.html</guid>
+      <guid>http://bbchen.github.io/habits/</guid>
       <description>&lt;p&gt;Create a new habit every 5-6 weeks:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -295,20 +296,20 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>Contact Me</title>
-      <link>http://bbchen.github.io/contact.html</link>
+      <link>http://bbchen.github.io/contact/</link>
       <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/contact.html</guid>
+      <guid>http://bbchen.github.io/contact/</guid>
       <description>&lt;p&gt;The best way to reach me is by Email: &lt;a href=&#34;mailto:bbchen@gmail.com&#34;&gt;bbchen@gmail.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Stack</title>
-      <link>http://bbchen.github.io/colophon.html</link>
+      <link>http://bbchen.github.io/colophon/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/colophon.html</guid>
+      <guid>http://bbchen.github.io/colophon/</guid>
       <description>&lt;p&gt;This site is a DIY project to put in practice what I learn in my web development education journey.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m currently using a &lt;a href=&#34;https://davidwalsh.name/introduction-static-site-generators&#34;&gt;static site generator&lt;/a&gt; made with &lt;a href=&#34;http://www.golang.org&#34;&gt;Go&lt;/a&gt; called &lt;a href=&#34;http://www.gohugo.io&#34;&gt;Hugo&lt;/a&gt;. Hugo takes content written in &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; and blends it with a set of templates that combine HTML and Go code, producing a static site that I then deploy to the public web via &lt;a href=&#34;http://pages.github.com&#34;&gt;Github Pages&lt;/a&gt;.&lt;/p&gt;
@@ -325,11 +326,12 @@ Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页
     
     <item>
       <title>Archives</title>
-      <link>http://bbchen.github.io/archives.html</link>
+      <link>http://bbchen.github.io/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bbchen.github.io/archives.html</guid>
-      <description></description>
+      <guid>http://bbchen.github.io/archives/</guid>
+      <description>&lt;p&gt;I write whenever I can. This is a place where I log my ideas, notes, and thoughts.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

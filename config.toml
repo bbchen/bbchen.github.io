@@ -7,7 +7,7 @@ disqusShortname = "zen-life"
 googleAnalytics = "UA-72141705-1"
 
 hasCJKLanguage = true
-uglyurls = true
+uglyurls = false
 
 # "yaml", "toml", "json"
 metaDataFormat = "toml"
@@ -38,24 +38,24 @@ fa_icon = "fa-rss"
     pre = "<i class='fa fa-heart'></i>"
     weight = -100
     identifier = "archives"
-    url = "/archives.html"
+    url = "/archives/"
 [[menu.navigation]]
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
     identifier = "about"
-    url = "/about.html"
+    url = "/about/"
 [[menu.navigation]]
     name = "Now"
     pre = "<i class='fa fa-road'></i>"
     weight = -120
-    url = "/now.html"
+    url = "/now/"
 [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
-    url = "/contact.html"
+    url = "/contact/"
 
 
 [permalinks]
-    post = "/post/:year/:month/:title.html"
+    post = "/post/:year/:month/:title/"

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://bbchen.github.io/index.html</loc>
+    <loc>http://bbchen.github.io/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -12,12 +12,12 @@
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/about.html</loc>
+    <loc>http://bbchen.github.io/about/</loc>
     <lastmod>2016-11-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/now.html</loc>
+    <loc>http://bbchen.github.io/now/</loc>
     <lastmod>2016-11-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -27,12 +27,12 @@
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/book-list.html</loc>
+    <loc>http://bbchen.github.io/book-list/</loc>
     <lastmod>2016-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/habits.html</loc>
+    <loc>http://bbchen.github.io/habits/</loc>
     <lastmod>2016-01-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -47,17 +47,17 @@
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/contact.html</loc>
+    <loc>http://bbchen.github.io/contact/</loc>
     <lastmod>2015-06-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/colophon.html</loc>
+    <loc>http://bbchen.github.io/colophon/</loc>
     <lastmod>2015-04-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/archives.html</loc>
+    <loc>http://bbchen.github.io/archives/</loc>
   </url>
   
 </urlset>

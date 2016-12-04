@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zen Life</title>
-    <link>http://bbchen.github.io/tags/about-introduction-zen-habits.xml</link>
+    <link>http://bbchen.github.io/tags/about-introduction-zen-habits/index.xml</link>
     <description>Recent content on Zen Life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; &lt;a href=&#34;https://github.com/bbchen&#34;&gt;Zen Life&lt;/a&gt; 2016</copyright>
-    <atom:link href="http://bbchen.github.io/tags/about-introduction-zen-habits.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://bbchen.github.io/tags/about-introduction-zen-habits/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello Word</title>
