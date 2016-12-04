@@ -8,7 +8,7 @@ Everyone is the slave of procrastination. When a task is difficult, people are t
 
 It is true the more one procrastinates, the more anxiety one has. Procrastination could also diminish your productivity. People often find that procrastination is the worst enemy in work and life. One often asked question is "How I can overcome procrastination". That is the question that I often ask myself and search online to find a solution.
 
-## How can I overcome the habit of procrastination
+## How can I overcome the habit of procrastination?
 
 1. **Forget about rationale**
 When you decide what to do in the next few hours, logics and rationale do not help. You probably have one dozen reasons that you don't want to do the important tasks. Remember, you just have one thing to do for the next few hours. Try not to argue with yourself whether you want to do the task. Just do it and do nothing else. This is as simple as that.
