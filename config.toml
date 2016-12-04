@@ -10,7 +10,7 @@ hasCJKLanguage = true
 uglyurls = true
 
 # "yaml", "toml", "json"
-metaDataFormat = "yaml"
+metaDataFormat = "toml"
 newContentEditor = "subl"
 
 [params]
@@ -33,22 +33,29 @@ fa_icon = "fa-rss"
 
 [menu]
 
-[[menu.main]]
+[[menu.navigation]]
+    name = "Archives"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "archives"
+    url = "/archives.html"
+[[menu.navigation]]
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     weight = -110
     identifier = "about"
     url = "/about.html"
+[[menu.navigation]]
+    name = "Now"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -120
+    url = "/now.html"
 [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
     url = "/contact.html"
-[[menu.main]]
-    name = "Now"
-    pre = "<i class='fa fa-road'></i>"
-    weight = -120
-    url = "/now.html"
+
 
 [permalinks]
     post = "/post/:year/:month/:title.html"

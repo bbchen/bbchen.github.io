@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+    <article>
+      <h1 class="title">
+        {{ .Title }}  <!-- title, in this case it will be "blog index" -->
+      </h1>
+      {{ .Content }} <!-- content of the markdown file. note that inside the range .Content will point to each page's content -->
+      {{ range (where .Site.Pages "Type" "post").GroupByDate "2006" }}
+      <section>
+        <h1 class="title is-4">{{ .Key }}</h1>
+        {{ range .Pages }}
+        <h2 class="subtitle is-6">
+          {{ .Date.Format "Jan 2" }} <!-- print publish year -->
+        </h2>
+        <h2 class="title is-5"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h2>
+        {{ end }}
+        {{ end }}
+      </section>
+    </article>
+  </div>
+</section>
+<!-- {{ partial "disqus" . }} -->
+{{ partial "footer" . }}

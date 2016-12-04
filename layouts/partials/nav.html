@@ -6,6 +6,12 @@
       </div>
       <div class="nav-right">
         <nav class="nav-item level is-mobile">
+          {{ range .Site.Menus.navigation }}
+          <a class="level-item" href="{{ .URL }}">
+            <!-- {{ .Pre }} -->
+            <span>  {{ .Name }}  </span>
+          </a>
+          {{end}}
           {{ range .Site.Params.social }}
           <a class="level-item" href="{{ .url }}">
             <span class="icon">

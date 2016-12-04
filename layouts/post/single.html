@@ -4,12 +4,50 @@
   <div class="container">
     <h2 class="subtitle is-6">{{ .Date.Format "January 2, 2006" }}</h2>
     <h1 class="title">{{ .Title }}</h1>
-    <!-- <div class="nav-right is-marginless"> -->
-    <!-- {{ .TableOfContents }} -->
-    <!-- </div> -->
     <div class="content">
       {{ .Content }}
     </div>
+    <hr />
+	<nav class="level is-mobile">
+      <div class="level-left">
+        <div class="level-item">
+          {{ if .PrevInSection }}
+          <a class="button" href="{{ .PrevInSection.Permalink }}">
+            <span class="icon is-small is-marginless">
+              <i class="fa fa-angle-left"></i>
+            </span>
+            Previous: {{ .PrevInSection.Title }}
+          </a>
+          {{ else }}
+          <a class="button is-disabled">
+            <span class="icon is-small is-marginless">
+              <i class="fa fa-angle-left"></i>
+            </span>
+            Previous
+          </a>
+          {{ end }}
+        </div>
+      </div>
+      <div class="level-right is-marginless">
+        <div class="level-item">
+          {{ if .NextInSection }}
+          <a class="button" href="{{ .NextInSection.Permalink }}">
+            Next: {{ .NextInSection.Title }}
+            <span class="icon is-small is-marginless">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+          {{ else }}
+          <a class="button is-disabled">
+            Next
+            <span class="icon is-small is-marginless">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </nav>
   </div>
 </section>
 {{ partial "disqus" . }}

@@ -3,7 +3,22 @@
   
   <url>
     <loc>http://bbchen.github.io/index.html</loc>
-    <lastmod>2016-01-07T00:00:00+00:00</lastmod>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bbchen.github.io/post/2016/12/%E6%88%91%E6%80%8E%E4%B9%88%E5%85%8B%E6%9C%8D%E6%88%91%E7%9A%84%E6%8B%96%E5%BB%B6%E7%97%87.html</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bbchen.github.io/about.html</loc>
+    <lastmod>2016-11-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://bbchen.github.io/now.html</loc>
+    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -32,11 +47,6 @@
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/now.html</loc>
-    <lastmod>2015-11-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://bbchen.github.io/contact.html</loc>
     <lastmod>2015-06-30T00:00:00+00:00</lastmod>
   </url>
@@ -47,8 +57,7 @@
   </url>
   
   <url>
-    <loc>http://bbchen.github.io/about.html</loc>
-    <lastmod>2014-09-27T00:00:00+00:00</lastmod>
+    <loc>http://bbchen.github.io/archives.html</loc>
   </url>
   
 </urlset>

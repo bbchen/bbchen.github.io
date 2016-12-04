@@ -1,7 +1,7 @@
 +++
 title = "About"
+date = "2016-11-30"
 description = ""
-date = "2014-09-27"
 slug = "about"
 +++
 
