@@ -23,4 +23,4 @@ It is difficult to start. One always tries hard to avoid the difficult and somew
 6. **Distraction-free work environment**
 In the Internet age, there are many distractions from news media, tweeters, Facebook, online bbs. Your life is bombarded with lots of information, most of which are not useful. It is a hug time sink. The distraction and interruption will kill your valuable time for the work that can help realize your dream. When you start your session (e.g. 25 min pomodoro), do not turn on your cell phone, open web browser to surf the website, or respond to emails (emails are rarely emergent).
 
-In short, **be your life's master, but slave.**
+Simply put, **be your life's master, not slave.**
