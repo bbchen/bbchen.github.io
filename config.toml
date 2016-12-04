@@ -36,7 +36,7 @@ fa_icon = "fa-rss"
 [[menu.navigation]]
     name = "Archives"
     pre = "<i class='fa fa-heart'></i>"
-    weight = -110
+    weight = -100
     identifier = "archives"
     url = "/archives.html"
 [[menu.navigation]]
