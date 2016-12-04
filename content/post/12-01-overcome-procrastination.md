@@ -1,58 +1,26 @@
 ---
-title: 我怎么克服我的拖延症？
+title: How to overcome procrastination?
 date: 2016-12-01
 draft: false
 ---
 
-其实写这种关于拖延症的文章太多， 方法理论数不胜数。 基本上很多都是打鸡血的高能正能量，看过一遍，能够坚持一阵子，没法在脑中留下太多印象。 然后过几天就又回到原来的样子， deadline前一天写assignment。 刚开始做正事就玩玩手机，刷刷微博， 逛逛人人。
+Everyone is the slave of procrastination. When a task is difficult, people are trying to avoid it. So people often procrastinate. That is, we will do the important ask unless we have to do it in the last minute. You can imagine how anxious and desperate you are when you find that the important task has not been finished and the deadline is just hours away. What we usually do is to scratch our heads and force us to finish it, as the price of not finishing the important task is extremely high.
 
-前几天在网上看到一篇关于拖延症的文章，其实不算文章，只是类似于国内知乎一样的网站上， 某个人提出了这样一个问题： 我怎么克服我的拖延症？ 其中的这个回答被like了9000多次，所以这个答案有没有用，不言自明。个人如此严重的拖延症觉得还是有指导意义的。
-以下是原地址：[Oliver Emberton's answer to Procrastination: How do I get over my bad habit of procrastinating?](https://link.zhihu.com/?target=http%3A//www.quora.com/Life-Advice/How-do-I-get-over-my-bad-habit-of-procrastinating/answer/Oliver-Emberton)
+It is true the more one procrastinates, the more anxiety one has. Procrastination could also diminish your productivity. People often find that procrastination is the worst enemy in work and life. One often asked question is "How I can overcome procrastination". That is the question that I often ask myself and search online to find a solution.
 
-我只是当个搬运工 可以直接跳去看英文原版 我这个翻译实在是 班门弄斧 不得原意之处 各位海涵 
+## How can I overcome the habit of procrastination
 
-我怎么克服我拖延症的坏习惯？
-首先我需要用两分钟利用一张漫画蛇来解释一下人类文明基本运作方式。（这里也可以理解是大脑的运作方式）
+1. **Forget about rationale**
+When you decide what to do in the next few hours, logics and rationale do not help. You probably have one dozen reasons that you don't want to do the important tasks. Remember, you just have one thing to do for the next few hours. Try not to argue with yourself whether you want to do the task. Just do it and do nothing else. This is as simple as that.
+2. **Positive attitude**
+Nobody can be always positive about anything. Relax and tell yourself life is good and I love my work. Day dream the positive outcome if you finish your work.
+3.  **Establish some disciplines and reward mechanism**
+Establish discipline and reward policy. If you finish the work, you need to reward yourself by doing things you like, such as a relaxing walk, listening to your favorite music, and watching a short movie. Your task is in your task list, there will be some bad outcome if you can not finish it on time. Although you anxiety level will increase if you can not finish it, you also need to let yourself know clearly the importance of checking it off your list. Any negative feelings are much less important than your resistance of doing the task. Try to restrain yourself from the negative feelings.
+4. **Motivate yourself**
+When you feel your mode is low, set alarm and then listen to some music. Write motivational messages on the wall or on sticky notes in your computer. Whenever you find out that you are off the track, turn to these motivational messages.
+5. **Start immediately on the task**
+It is difficult to start. One always tries hard to avoid the difficult and somewhat boring work. Nowadays there are a lot of distractions. Formulate a routine that start immediately without arguing with yourself whether you need to start. When you write down a task in the list, you have already decided it is important and you have to do that first thing in the morning. Just start and do it, as simple as that. No one can be comfortable and productive at the same time. You choose this career, there must be something you truly love in your heart. What you are doing right now makes you one step closer to your dream. 
+6. **Distraction-free work environment**
+In the Internet age, there are many distractions from news media, tweeters, Facebook, online bbs. Your life is bombarded with lots of information, most of which are not useful. It is a hug time sink. The distraction and interruption will kill your valuable time for the work that can help realize your dream. When you start your session (e.g. 25 min pomodoro), do not turn on your cell phone, open web browser to surf the website, or respond to emails (emails are rarely emergent).
 
-人都喜欢相信自己是很聪明的。 我们宁愿相信那些能让我们分离原子，登陆月球的伟大如爱因斯坦的大脑和那些甚至没法开始做一个第二天就要截止的作业的大脑是一样的。
-
-人类从原始的生命进化而来， 但是人类从来都没有完全摆脱来自祖先原始低级生命的一些残留基因。 我们知道， 智慧的，理性部分的大脑我们称之为人为意识。我们暂且叫他Albert，他和另一个冲动的小爬虫一起住在你的大脑中， 这个爬虫我们就叫 Rex吧。
-
-Rex 是你的基础神经末节， 但是名字太麻烦， 所以我们还是叫Rex好了。
-Rex是由几百万年前进化而来的（可以想象是有多原始），然而就是你脑子里的这个小爬虫（听起来有点瘆人）的直觉引导和激励你走到今天这一步。你所有的饥饿，恐惧， 爱，欲望都来自Rex。 Rex的思想是简单而原始的， 并且是非语言化的。
-
-下面要说的这点你将不会喜欢： Rex拥有你作出的所有选择的决定权，对， 他决定你做的每一件事的选择！
-
-我们喜欢把Albert认为是我们的“真我”——也就是大脑的意识部分。他是那个说话和讲道理的部分。当我们决定去健身或者写那个几千字的学期作业，这是由 Albert 做这个决定。
-
-但是Rex并不一定听Albert的话。 就像一个小孩一样，只要他愿意， 他就会去做被指定做的事。但是一旦Rex更喜欢躺在沙发上吃着奇多再看几集 生活大爆炸， 那么这就是你接下来实际做的事。
-
-（这么听起来，好像我们就不会做正事了）不过，像我们身边的人一样要想完成那些不可思议的成就也是可能的， 因为我们发展了一个系统来安抚，抑制 我们大脑中的Rex。 而这个系统我们大多称之为“文明”。 食物和住所， 法律系统，正义 公正，义务制教育，娱乐消遣， 一夫一妻制等等。 所有的这些都能让Rex有足够长的时间安静下来， 而让脑中的Albert可以做些有用的事——比如发现青霉素或者发明奇多。
-
-好了现在我们来看看拖延症。
-
-当你在做每个决定的时候都是神志清醒的， 但是你却在奇怪为什么你没有去实行这些决定。原因就是真正决定你选择的控制权在Rex手中。——那个心志一点也不成熟的小爬虫。
-
-想象一下你需要一直说服一个小孩去做你想要他做的事，简单点做的话，宣示权威就行了， 比如说“该吃饭了” 但是如果是小孩不想做的事， 他就不会听你的。你就需要用甜言蜜语来哄他。所以你需要：
-
-- **忘记逻辑**
-一旦你决定做任何事， 逻辑和理性对你没有任何帮助。你脑中的Rex可以被安抚，可以被满足， 可以被恐吓或者激励。 但是它是非语言化的， 是不能跟它讲道理的。
-
-- **对Rex适时的安慰很重要**
-如果你饿了，累了或者情绪压抑了， Rex就会起兵造反。 一旦你没能照顾好你自己的各种需求（来自Rex）， 他就会尖叫哀嚎各种胡闹，就是不做你要他做的事。因为它存在的目的就是尽可能的吃， 睡，花时间玩。
-
-- **培养一些纪律约束自己**
-建立一个奖惩分明的制度。 如果你要小孩子吃蔬菜，就先要把点心藏在最后一道上。完成一项任务就奖励自己，如果失败了也要按照既定的规则惩罚自己。有一些典型的例子， 比如致力于一个公共的目标， 或者和一个团队合作，社交压力也可以影响Rex。——抑制它，进而有效的做更多有用的事
-
-- **刺激情绪**
-你的Rex会对情绪做反应。这就是它的“语言”。 所以给自己打起鸡血来，或者吓吓自己，看看励志演讲或者文章可以帮助你刺激情绪，不过这效果只会持续一阵子。或者听一些令人振奋的音乐。一些激励人成功的图片或者失败后将会发生的后果， 让这些画面都生动到想想都激动或者害怕——也就达到刺激情绪的效果了。其实我们对小孩也是用的同样的方法： 要记得刷牙哦 不然它们都会掉下来！
-
-- **强迫自己去做一个开头**
-万事开头难，大部分Rex的意识和直觉就是逃避改变。 所以只要你开始了某件事，它的这些意识和直觉就会开始向有利于你的方向发展， 通过足够的时间，你甚至可以说服Rex喜欢上他讨厌做的事。 这就是我们强迫小孩上学或者学钢琴的原因。
-
-- **清理工作环境的视野**
-Rex是一个近视眼， 而且很不聪明， 如果它看到一个微博网页， 他会想去看看， 这就像是在睡觉前给小孩看一段精彩的电视节目。—— 那他今晚就会折腾着不睡觉了。所以你要将你身边的环境变得没有这么分散注意力。 关了网页， 断了网， 手机静音， 有一个和消遣娱乐完全隔离的工作环境。（ 如果可以，尽量用不同的电脑工作和娱乐，或者至少用一个专门的工作账户登录电脑）
-
-所以综上，一旦你知道自己要做什么，你就会开始认知其中的规律，并且慢慢的控制那个小小的Rex。
-
-在你的脑中住着一个毫不讲理并且冲动的小爬虫Rex，更不幸的是它还控制着你日常生活的方向盘。不过， 如果你可以很好的教育它呢， 它就会去做大部分你要它做的事，并且表现的很好。 只要你随时记得对自己说我的地盘我做主。
+In short, **be your life's master, but slave.**
