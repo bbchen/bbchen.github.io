@@ -19,9 +19,9 @@ newContentEditor = "subl"
 style = "github"
 languages = ["go", "dockerfile"]
 
-[[params.social]]
-url = "https://github.com/bbchen"
-fa_icon = "fa-github"
+#[[params.social]]
+#url = "https://github.com/bbchen"
+#fa_icon = "fa-github"
 
 [[params.social]]
 url = "https://twitter.com/bbchen"
@@ -34,11 +34,11 @@ fa_icon = "fa-rss"
 [menu]
 
 [[menu.navigation]]
-    name = "Archives"
+    name = "Archive"
     pre = "<i class='fa fa-heart'></i>"
     weight = -100
-    identifier = "archives"
-    url = "/archives/"
+    identifier = "archive"
+    url = "/archive/"
 [[menu.navigation]]
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
